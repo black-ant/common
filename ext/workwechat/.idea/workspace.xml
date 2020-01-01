@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="872a587d-6eda-44b6-b20b-ee8547b4f2f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gang/exp/sdk/workwechat/logic/BaseLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gang/exp/sdk/workwechat/logic/OrgLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gang/exp/sdk/workwechat/logic/UserLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gang/exp/sdk/workwechat/to/OrgTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gang/exp/sdk/workwechat/type/WorkWechatAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swagger/com-gang-common-swagger.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../parent-lib/src/main/java/com/gang/exp/parent/utils/HttpClientUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dingtalk/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dingtalk/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sdk-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sdk-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../parent-lib/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/src/main/java/com/gang/exp/common/annotation/ExpAlias.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../parent-lib/src/main/java/com/gang/exp/parent/annotation/ExpAlias.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/src/main/java/com/gang/exp/common/error/ExpError.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../parent-lib/src/main/java/com/gang/exp/parent/exception/ExpError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/src/main/java/com/gang/exp/common/search/OrderTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../parent-lib/src/main/java/com/gang/exp/parent/search/OrderTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/src/main/java/com/gang/exp/common/search/PageTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../parent-lib/src/main/java/com/gang/exp/parent/search/PageTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/src/main/java/com/gang/exp/common/to/AbstractTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../parent-lib/src/main/java/com/gang/exp/parent/to/AbstractTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/src/main/java/com/gang/exp/common/to/ResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../parent-lib/src/main/java/com/gang/exp/parent/to/ResponseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/src/main/java/com/gang/exp/common/to/ResponsePageModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../parent-lib/src/main/java/com/gang/exp/parent/to/ResponsePageModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/src/main/java/com/gang/exp/common/utils/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../parent-lib/src/main/java/com/gang/exp/parent/utils/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/src/main/java/com/gang/exp/common/utils/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../parent-lib/src/main/java/com/gang/exp/parent/utils/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/src/main/java/com/gang/exp/common/utils/JSONUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../parent-lib/src/main/java/com/gang/exp/parent/utils/JSONUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/src/main/java/com/gang/exp/common/utils/ObjectUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../parent-lib/src/main/java/com/gang/exp/parent/utils/ObjectUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/src/main/java/com/gang/exp/common/utils/ReadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../parent-lib/src/main/java/com/gang/exp/parent/utils/ReadUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/src/main/java/com/gang/exp/common/utils/ReflectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../parent-lib/src/main/java/com/gang/exp/parent/utils/ReflectionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/src/main/java/com/gang/exp/common/utils/TemplateResolve.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../parent-lib/src/main/java/com/gang/exp/parent/utils/TemplateResolve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/src/main/java/com/gang/exp/common/utils/WriteUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../parent-lib/src/main/java/com/gang/exp/parent/utils/WriteUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/target/classes/com/gang/exp/common/annotation/ExpAlias.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/target/classes/com/gang/exp/common/error/ExpError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/target/classes/com/gang/exp/common/search/OrderTO$orderBy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/target/classes/com/gang/exp/common/search/OrderTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/target/classes/com/gang/exp/common/search/PageTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/target/classes/com/gang/exp/common/to/AbstractTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/target/classes/com/gang/exp/common/to/ResponseModel$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/target/classes/com/gang/exp/common/to/ResponseModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/target/classes/com/gang/exp/common/to/ResponsePageModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/target/classes/com/gang/exp/common/utils/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/target/classes/com/gang/exp/common/utils/FileUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/target/classes/com/gang/exp/common/utils/JSONUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/target/classes/com/gang/exp/common/utils/ObjectUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/target/classes/com/gang/exp/common/utils/ReadUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/target/classes/com/gang/exp/common/utils/ReflectionUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/target/classes/com/gang/exp/common/utils/TemplateResolve.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/target/classes/com/gang/exp/common/utils/WriteUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/target/com-gang-exp-common-lib-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lib/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../redis/target/com-gang-common-redis-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../redis/target/com-gang-common-redis-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../redis/target/com-gang-common-redis-1.0.0.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../swagger/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../swagger/target/com-gang-common-swagger-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../swagger/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../swagger/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../parent-lib/target/com-gang-parent-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wechat/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../parent/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../parent-lib/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sdk/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../sdk/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sdk/target/com-gang-common-sdk-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../sdk/target/com-gang-common-sdk-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sdk/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../sdk/target/maven-archiver/pom.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gang/exp/sdk/workwechat/type/WorkWechatAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding>
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/gang/exp/sdk/workwechat/type/WorkWechatAPI.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../../../plugins/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\java\plugins\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/com-gang-ext-sdk-workwechat.iml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin.scripting" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="872a587d-6eda-44b6-b20b-ee8547b4f2f4" name="Default Changelist" comment="" />
+      <created>1577280530632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577280530632</updated>
+      <workItem from="1577280533079" duration="1411000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1411000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CheckStyle" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gang/exp/sdk/workwechat/type/WorkWechatAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
