@@ -15,10 +15,12 @@ public class ResponseModel<E> {
 
     private E data;
 
+    private String dataType;
+
     private final Map<String, String> info = new HashMap<>();
 
     public static <T> ResponseModel<T> commonResponse(final T entity) {
-        return new ResponseModel.Builder<T>().data(entity).info(ResponseType.SUCCESS).build();
+        return new ResponseModel.Builder<T>().data(entity).info(ResponseType.SUCCESS).dataType(entity.getClass().getName()).build();
     }
 
     public static class Builder<E> {
@@ -26,7 +28,10 @@ public class ResponseModel<E> {
         protected ResponseModel instance;
 
         protected ResponseModel<E> getInstance() {
-            return instance == null ? new ResponseModel<E>() : instance;
+            if (instance == null) {
+                instance = new ResponseModel<E>();
+            }
+            return instance;
         }
 
         public Builder<E> data(E data) {
@@ -47,6 +52,11 @@ public class ResponseModel<E> {
         public Builder<E> info(ResponseType responseType) {
             getInstance().getInfo().put("code", responseType.getCode());
             getInstance().getInfo().put("info", responseType.getInfo());
+            return this;
+        }
+
+        public Builder<E> dataType(String dataType) {
+            getInstance().setDataType(dataType);
             return this;
         }
 
@@ -98,6 +108,12 @@ public class ResponseModel<E> {
         return info;
     }
 
+    public String getDataType() {
+        return dataType;
+    }
 
+    public void setDataType(String dataType) {
+        this.dataType = dataType;
+    }
 }
 

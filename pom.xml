@@ -17,10 +17,11 @@
 
     <modules>
         <module>swagger</module>
-        <module>redis</module>
         <module>ext</module>
         <module>parent-sdk</module>
         <module>common-lib</module>
+        <module>mybatis</module>
+        <module>cache</module>
     </modules>
     <properties>
 
@@ -94,7 +95,6 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <optional>true</optional>
             <version>${projectlombok.version}</version>
         </dependency>
     </dependencies>
@@ -136,7 +136,6 @@
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
-                <scope>provided</scope>
                 <version>${projectlombok.version}</version>
             </dependency>
             <dependency>

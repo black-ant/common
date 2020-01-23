@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="com-gang-sdk-dingtalk" />
+        <module name="com-gang-common-mybatis" />
         <module name="com-gang-ext-wechat" />
         <module name="com-gang-sdk-api" />
         <module name="com-gang-common-parent-sdk" />
@@ -21,6 +22,7 @@
       <module name="com-gang-common" target="1.8" />
       <module name="com-gang-common-ext" target="1.8" />
       <module name="com-gang-common-lib" target="1.8" />
+      <module name="com-gang-common-mybatis" target="1.8" />
       <module name="com-gang-common-parent-sdk" target="1.8" />
       <module name="com-gang-common-redis" target="1.8" />
       <module name="com-gang-common-swagger" target="1.8" />
@@ -34,6 +36,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="com-gang-common-lib" options="-parameters -Xlint:unchecked" />
+      <module name="com-gang-common-mybatis" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-parent-sdk" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-redis" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-swagger" options="-parameters -Xlint:unchecked" />

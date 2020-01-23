@@ -1,5 +1,6 @@
 package com.gang.ext.sdk.workwechat.to;
 
+import com.gang.sdk.api.annotation.SyncTO;
 import com.gang.sdk.api.to.SyncBaseBean;
 import lombok.Data;
 
@@ -10,6 +11,7 @@ import lombok.Data;
  * @Created by zengzg
  */
 @Data
+@SyncTO(type = "ORG")
 public class OrgTO extends SyncBaseBean {
 
     private String name;

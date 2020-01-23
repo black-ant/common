@@ -17,7 +17,7 @@
         <module>sdk-api</module>
         <module>wechat</module>
         <module>workwechat</module>
-        <module>parent</module>
+        <module>sdk-parent</module>
     </modules>
 
 

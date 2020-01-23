@@ -7,12 +7,10 @@
 //import com.gang.ext.sdk.workwechat.to.WorkWechatConfig;
 //import com.gang.sdk.api.to.SyncConfig;
 //import org.junit.Test;
-//import org.junit.runner.RunWith;
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.boot.test.context.SpringBootTest;
-//import org.springframework.test.context.junit4.SpringRunner;
 //
 ///**
 // * @Classname WorkWechatApplicationTest
@@ -20,7 +18,6 @@
 // * @Date 2019/12/28 12:16
 // * @Created by zengzg
 // */
-//@RunWith(SpringRunner.class)
 //@SpringBootTest
 //public class WorkWechatApplicationTest {
 //
@@ -35,8 +32,8 @@
 //    @Test
 //    public void getToken() {
 //        //        logger.info("------> {} <-------", baseLogic.getToken(getConfig()));
-//        //        testCreate();
-//        testUpdate();
+//        testCreate();
+//        //        testUpdate();
 //    }
 //
 //    public void testCreate() {

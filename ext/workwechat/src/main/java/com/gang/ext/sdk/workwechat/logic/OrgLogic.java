@@ -1,14 +1,18 @@
 package com.gang.ext.sdk.workwechat.logic;
 
 import com.alibaba.fastjson.JSONObject;
+import com.gang.common.lib.to.ResponseModel;
 import com.gang.common.lib.utils.HttpClientUtils;
 import com.gang.ext.sdk.workwechat.to.OrgTO;
 import com.gang.ext.sdk.workwechat.to.WorkWechatConfig;
 import com.gang.ext.sdk.workwechat.type.WorkWechatAPI;
+import com.gang.sdk.api.annotation.SyncClass;
 import com.gang.sdk.api.annotation.SyncCreate;
 import com.gang.sdk.api.annotation.SyncDelete;
 import com.gang.sdk.api.annotation.SyncUpdate;
 import com.gang.sdk.api.service.AnyOperation;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -19,7 +23,10 @@ import org.springframework.stereotype.Component;
  * @Created by zengzg
  */
 @Component
+@SyncClass(type = "ORG")
 public class OrgLogic extends AnyOperation {
+
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Autowired
     private BaseLogic baseLogic;
@@ -34,14 +41,14 @@ public class OrgLogic extends AnyOperation {
     }
 
     @SyncCreate
-    public String create(OrgTO createTO, WorkWechatConfig config) {
-
+    public ResponseModel create(OrgTO createTO, WorkWechatConfig config) {
+        logger.info("------> this is in create <-------");
         String url = WorkWechatAPI.API_ORG_CREATE.getRestAPI().replace(WorkWechatAPI.TOKEN_CODE.getRestAPI(),
                 init(config));
-
+        logger.info("------> get url :{} <-------", url);
         String jsonObject = HttpClientUtils.sendHttpPost(url, JSONObject.toJSONString(createTO));
 
-        return jsonObject;
+        return ResponseModel.commonResponse(jsonObject);
 
     }
 

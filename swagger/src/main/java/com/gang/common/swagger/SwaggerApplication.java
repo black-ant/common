@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
  * @Date 2020/1/1 21:41
  * @Created by zengzg
  */
-@SpringBootApplication
+//@SpringBootApplication
 public class SwaggerApplication {
 
     public static void main(String[] args) {

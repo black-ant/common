@@ -7,4 +7,6 @@ package com.gang.sdk.api.to;
  * @Created by zengzg
  */
 public class SyncBaseBean {
+
+
 }

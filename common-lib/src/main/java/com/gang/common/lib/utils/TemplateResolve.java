@@ -1,6 +1,8 @@
 package com.gang.common.lib.utils;
 
 
+import com.alibaba.fastjson.JSONObject;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
@@ -15,7 +17,7 @@ import java.util.stream.Stream;
  */
 public class TemplateResolve {
 
-    public Map<String, String> getTemplateParamMap(String templateBody) {
+    public static Map<String, String> getTemplateParamMap(String templateBody) {
         HashMap backMap = new HashMap<String, String>();
         return backMap;
     }
@@ -35,23 +37,7 @@ public class TemplateResolve {
      */
     private static TemplateResolve defaultResolver = new TemplateResolve();
 
-    /**
-     * 占位符前缀
-     */
-    private String placeholderPrefix = DEFAULT_PLACEHOLDER_PREFIX;
-
-    /**
-     * 占位符后缀
-     */
-    private String placeholderSuffix = DEFAULT_PLACEHOLDER_SUFFIX;
-
-
     private TemplateResolve() {
-    }
-
-    private TemplateResolve(String placeholderPrefix, String placeholderSuffix) {
-        this.placeholderPrefix = placeholderPrefix;
-        this.placeholderSuffix = placeholderSuffix;
     }
 
     /**
@@ -63,13 +49,26 @@ public class TemplateResolve {
         return defaultResolver;
     }
 
-    public TemplateResolve getResolver(String templateUtil, String placeholderSuffix) {
-        return new TemplateResolve(placeholderPrefix, placeholderSuffix);
+    public static String jexlResolve(String template, String key, String value) {
+        Map<String, Object> map = new HashMap<>();
+        map.put(key, value);
+        return JexlUtils.evaluate(template, map);
+    }
+
+    public static String jexlResolve(String template, String content) {
+        Map<String, Object> map = JSONObject.parseObject(content);
+        return JexlUtils.evaluate(template, map);
+    }
+
+    public static String resolve(String template, String key, String value) {
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put(key, value);
+        return resolve(template, jsonObject.toJSONString());
     }
 
     /**
      * 解析带有指定占位符的模板字符串，默认占位符为前缀：${  后缀：}<br/><br/>
-     * 如：template = category:${}:product:${}<br/>
+     * 如：templates = category:${}:product:${}<br/>
      * values = {"1", "2"}<br/>
      * 返回 category:1:product:2<br/>
      *
@@ -77,8 +76,8 @@ public class TemplateResolve {
      * @param values  按照模板占位符索引位置设置对应的值
      * @return
      */
-    public String resolve(String content, String... values) {
-        int start = content.indexOf(this.placeholderPrefix);
+    public static String resolve(String content, String... values) {
+        int start = content.indexOf(DEFAULT_PLACEHOLDER_PREFIX);
         if (start == -1) {
             return content;
         }
@@ -86,17 +85,17 @@ public class TemplateResolve {
         int valueIndex = 0;
         StringBuilder result = new StringBuilder(content);
         while (start != -1) {
-            int end = result.indexOf(this.placeholderSuffix);
+            int end = result.indexOf(DEFAULT_PLACEHOLDER_SUFFIX);
             String replaceContent = values[valueIndex++];
-            result.replace(start, end + this.placeholderSuffix.length(), replaceContent);
-            start = result.indexOf(this.placeholderPrefix, start + replaceContent.length());
+            result.replace(start, end + DEFAULT_PLACEHOLDER_SUFFIX.length(), replaceContent);
+            start = result.indexOf(DEFAULT_PLACEHOLDER_PREFIX, start + replaceContent.length());
         }
         return result.toString();
     }
 
     /**
      * 解析带有指定占位符的模板字符串，默认占位符为前缀：${  后缀：}<br/><br/>
-     * 如：template = category:${}:product:${}<br/>
+     * 如：templates = category:${}:product:${}<br/>
      * values = {"1", "2"}<br/>
      * 返回 category:1:product:2<br/>
      *
@@ -104,7 +103,7 @@ public class TemplateResolve {
      * @param values  按照模板占位符索引位置设置对应的值
      * @return
      */
-    public String resolve(String content, Object[] values) {
+    public static String resolve(String content, Object[] values) {
         return resolve(content, Stream.of(values).map(String::valueOf).toArray(String[]::new));
     }
 
@@ -115,20 +114,20 @@ public class TemplateResolve {
      * @param rule    解析规则回调
      * @return
      */
-    public String resolveByRule(String content, Function<String, String> rule) {
-        int start = content.indexOf(this.placeholderPrefix);
+    public static String resolveByRule(String content, Function<String, String> rule) {
+        int start = content.indexOf(DEFAULT_PLACEHOLDER_PREFIX);
         if (start == -1) {
             return content;
         }
         StringBuilder result = new StringBuilder(content);
         while (start != -1) {
-            int end = result.indexOf(this.placeholderSuffix, start);
+            int end = result.indexOf(DEFAULT_PLACEHOLDER_SUFFIX, start);
             //获取占位符属性值，如${id}, 即获取id
-            String placeholder = result.substring(start + this.placeholderPrefix.length(), end);
+            String placeholder = result.substring(start + DEFAULT_PLACEHOLDER_PREFIX.length(), end);
             //替换整个占位符内容，即将${id}值替换为替换规则回调中的内容
             String replaceContent = placeholder.trim().isEmpty() ? "" : rule.apply(placeholder);
-            result.replace(start, end + this.placeholderSuffix.length(), replaceContent);
-            start = result.indexOf(this.placeholderPrefix, start + replaceContent.length());
+            result.replace(start, end + DEFAULT_PLACEHOLDER_SUFFIX.length(), replaceContent);
+            start = result.indexOf(DEFAULT_PLACEHOLDER_PREFIX, start + replaceContent.length());
         }
         return result.toString();
     }
@@ -143,7 +142,7 @@ public class TemplateResolve {
      * @param valueMap 值映射
      * @return 替换完成后的字符串。
      */
-    public String resolveByMap(String content, final Map<String, Object> valueMap) {
+    public static String resolveByMap(String content, final Map<String, Object> valueMap) {
         return resolveByRule(content, placeholderValue -> String.valueOf(valueMap.get(placeholderValue)));
     }
 
@@ -154,7 +153,7 @@ public class TemplateResolve {
      * @param properties
      * @return
      */
-    public String resolveByProperties(String content, final Properties properties) {
+    public static String resolveByProperties(String content, final Properties properties) {
         return resolveByRule(content, placeholderValue -> properties.getProperty(placeholderValue));
     }
 
@@ -168,11 +167,12 @@ public class TemplateResolve {
      * @param obj     填充解析内容的对象(如果是基本类型，则所有占位符替换为相同的值)
      * @return
      */
-    public String resolveByObject(String content, final Object obj) {
+    public static String resolveByObject(String content, final Object obj) {
         if (obj instanceof Map) {
             return resolveByMap(content, (Map) obj);
         }
-        return resolveByRule(content, placeholderValue -> String.valueOf(ReflectionUtils.getValueByFieldPath(obj, placeholderValue)));
+        return resolveByRule(content, placeholderValue -> String.valueOf(ReflectionUtils.getValueByFieldPath(obj,
+                placeholderValue)));
     }
 
 }
