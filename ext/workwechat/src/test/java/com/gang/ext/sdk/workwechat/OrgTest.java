@@ -2,9 +2,9 @@
 //
 //import com.gang.common.lib.utils.IDUtils;
 //import com.gang.ext.sdk.workwechat.logic.UserLogic;
-//import com.gang.ext.sdk.workwechat.to.UserTO;
-//import com.gang.ext.sdk.workwechat.to.WorkWechatConfig;
-//import com.gang.sdk.api.to.SyncConfig;
+//import com.gang.ext.sdk.workwechat.entity.UserTO;
+//import com.gang.ext.sdk.workwechat.entity.WorkWechatConfig;
+//import com.gang.sdk.api.entity.SyncConfig;
 //import org.junit.Test;
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;

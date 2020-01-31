@@ -46,7 +46,7 @@ public class ReadUtils {
             String line = null;
 
             while ((line = reader.readLine()) != null) {
-                toLineNum = reader.getLineNumber();        // [from, to], start as 1
+                toLineNum = reader.getLineNumber();        // [from, entity], start as 1
                 if (toLineNum >= fromLineNum) {
                     logContentBuffer.append(line).append("\n");
                 }
@@ -80,7 +80,7 @@ public class ReadUtils {
             String line = null;
 
             while ((line = reader.readLine()) != null) {
-                toLineNum = reader.getLineNumber();        // [from, to], start as 1
+                toLineNum = reader.getLineNumber();        // [from, entity], start as 1
                 if (toLineNum >= fromLine) {
                     backMap.put(toLineNum, line);
                 }

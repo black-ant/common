@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" version="4">
   <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
     <facet type="JRebel" name="JRebel">
       <configuration>
         <option name="deleteUnindexed" value="false" />
@@ -13,7 +16,7 @@
             <entry key="com.zeroturnaround.jrebel.remoting.DeleteUnindexedFiles" value="false" />
             <entry key="com.zeroturnaround.jrebel.remoting.ModuleRemoteServerSelection" value="off" />
             <entry key="jrebelEnabled" value="true" />
-            <entry key="lastExternalPluginCheckTime" value="1579156022745" />
+            <entry key="lastExternalPluginCheckTime" value="1579934778734" />
           </map>
         </option>
         <option name="masterModuleName" />
@@ -24,9 +27,6 @@
         <option name="useRelativePathsInXml" value="false" />
         <option name="xmlDir" />
       </configuration>
-    </facet>
-    <facet type="Spring" name="Spring">
-      <configuration />
     </facet>
   </component>
 </module>

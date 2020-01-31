@@ -21,7 +21,7 @@ public class RedisInvoke {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    @Autowired
+    @Autowired  
     RedisTemplate redisTemplate;
 
     public String hget(String key, String field) {

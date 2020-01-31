@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import org.springframework.context.ApplicationContext;
+import org.springframework.stereotype.Component;
 
 import java.io.File;
 import java.io.IOException;
@@ -29,6 +30,7 @@ import java.util.jar.JarFile;
  * @Date 2019/11/6 22:35
  * @Created by ant-black 1016930479@qq.com
  */
+@Component
 public class ReflectionUtils {
 
     private static Logger LOG = LoggerFactory.getLogger(ReflectionUtils.class);
@@ -45,14 +47,31 @@ public class ReflectionUtils {
      *
      * @return
      */
-    public Object springClassLoad(String className) {
+    public <T> T springClassLoad(String className) {
         try {
             Class<?> handler = Class.forName(className);
-            Object loadback = context.getAutowireCapableBeanFactory()
+            T loadback = (T) context.getAutowireCapableBeanFactory()
                     .createBean(handler, AutowireCapableBeanFactory.AUTOWIRE_BY_TYPE, true);
             return loadback;
         } catch (ClassNotFoundException e) {
             LOG.error("E----> error :{} -- content :{}", e.getClass() + e.getMessage(), e);
+        }
+        return null;
+    }
+
+
+    /**
+     * > 发送全配置,生成发送对象
+     */
+    public <T> T classLoadReflect(String className) {
+
+        try {
+            ClassLoader classLoader = this.getClass().getClassLoader();
+            Class<?> cls;
+            cls = classLoader.loadClass(className);
+            return (T) cls.newInstance();
+        } catch (Exception e) {
+            LOG.error("E----> not found send class :{} --- content :{} ", e.getClass(), e);
         }
         return null;
     }

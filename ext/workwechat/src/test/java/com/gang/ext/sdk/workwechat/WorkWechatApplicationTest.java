@@ -3,9 +3,9 @@
 //import com.alibaba.fastjson.JSONObject;
 //import com.gang.ext.sdk.workwechat.logic.BaseLogic;
 //import com.gang.ext.sdk.workwechat.logic.OrgLogic;
-//import com.gang.ext.sdk.workwechat.to.OrgTO;
-//import com.gang.ext.sdk.workwechat.to.WorkWechatConfig;
-//import com.gang.sdk.api.to.SyncConfig;
+//import com.gang.ext.sdk.workwechat.entity.OrgTO;
+//import com.gang.ext.sdk.workwechat.entity.WorkWechatConfig;
+//import com.gang.sdk.api.entity.SyncConfig;
 //import org.junit.Test;
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;

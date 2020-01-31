@@ -78,7 +78,7 @@ public class WriteUtils {
             out.flush();
             out.close();
         } catch (IOException e) {
-            logger.error("upload-file save to local fail: ", e);
+            logger.error("upload-file save entity local fail: ", e);
         }
 
     }

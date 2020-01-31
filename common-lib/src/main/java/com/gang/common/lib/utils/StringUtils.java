@@ -46,7 +46,7 @@ public final class StringUtils {
     }
 
     /**
-     * replace json Type string to new String
+     * replace json Type string entity new String
      *
      * @param url
      * @param jsonString
