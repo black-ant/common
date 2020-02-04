@@ -19,6 +19,10 @@ public @interface SyncClass {
 
     String type() default "";
 
+    String name() default "";
+
+    String app() default "";
+
     String value() default "";
 
 }

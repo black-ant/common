@@ -20,7 +20,8 @@ public class ResponseModel<E> {
     private final Map<String, String> info = new HashMap<>();
 
     public static <T> ResponseModel<T> commonResponse(final T entity) {
-        return new ResponseModel.Builder<T>().data(entity).info(ResponseType.SUCCESS).dataType(entity.getClass().getName()).build();
+        return new ResponseModel.Builder<T>().data(entity).info(ResponseType.SUCCESS).dataType(entity == null ? "" :
+                entity.getClass().getName()).build();
     }
 
     public static class Builder<E> {

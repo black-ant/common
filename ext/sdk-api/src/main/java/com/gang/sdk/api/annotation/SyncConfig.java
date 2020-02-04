@@ -16,4 +16,12 @@ import java.lang.annotation.Target;
 @Target({ElementType.TYPE, ElementType.METHOD, ElementType.FIELD})
 @Documented
 public @interface SyncConfig {
+
+    String type() default "COMMON";
+
+    String app() default "";
+
+    String name() default "";
+
+    String value() default "";
 }

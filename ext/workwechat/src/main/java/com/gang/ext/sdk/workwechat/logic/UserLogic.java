@@ -24,7 +24,7 @@ import org.springframework.stereotype.Component;
  * @Created by zengzg
  */
 @Component
-@SyncClass(type = "USER")
+@SyncClass(type = "USER", app = "WORK_WECHAT", name = "企业微信")
 public class UserLogic extends AnyOperation {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());

@@ -16,13 +16,14 @@
     <version>1.0.0</version>
 
     <modules>
-        <module>swagger</module>
+        <module>common-swagger</module>
         <module>ext</module>
         <module>parent-sdk</module>
         <module>common-lib</module>
-        <module>mybatis</module>
-        <module>cache</module>
+        <module>common-mybatis</module>
+        <module>common-cache</module>
         <module>multiple-source</module>
+        <module>common-mybatis-plus</module>
     </modules>
     <properties>
 
@@ -455,23 +456,23 @@
                 </executions>
             </plugin>
 
-            <plugin>
-                <groupId>org.gaul</groupId>
-                <artifactId>modernizer-maven-plugin</artifactId>
-                <version>1.6.0</version>
-                <configuration>
-                    <javaVersion>${java.version}</javaVersion>
-                </configuration>
-                <executions>
-                    <execution>
-                        <id>modernizer-check</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>modernizer</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+            <!--            <plugin>-->
+            <!--                <groupId>org.gaul</groupId>-->
+            <!--                <artifactId>modernizer-maven-plugin</artifactId>-->
+            <!--                <version>1.6.0</version>-->
+            <!--                <configuration>-->
+            <!--                    <javaVersion>${java.version}</javaVersion>-->
+            <!--                </configuration>-->
+            <!--                <executions>-->
+            <!--                    <execution>-->
+            <!--                        <id>modernizer-check</id>-->
+            <!--                        <phase>verify</phase>-->
+            <!--                        <goals>-->
+            <!--                            <goal>modernizer</goal>-->
+            <!--                        </goals>-->
+            <!--                    </execution>-->
+            <!--                </executions>-->
+            <!--            </plugin>-->
 
             <!--            <plugin>-->
             <!--                <groupId>org.apache.maven.plugins</groupId>-->
@@ -509,7 +510,7 @@
                         </goals>
                         <configuration>
                             <source>
-                            <![CDATA[
+                                <![CDATA[
                                 import java.util.Date
                                 import java.text.MessageFormat
 
@@ -523,7 +524,7 @@
                                 if (!project.properties.containsKey('buildNumber'))
                                     project.properties['buildNumber'] = ""
                                 ]]>
-                        </source>
+                            </source>
                         </configuration>
                     </execution>
                 </executions>

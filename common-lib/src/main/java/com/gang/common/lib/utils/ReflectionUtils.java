@@ -290,6 +290,27 @@ public class ReflectionUtils {
      * @param fieldFilter 字段过滤器
      * @return 符合过滤器条件的字段数组
      */
+    public static List<String> getFieldsName(Class<?> clazz, Predicate<Field> fieldFilter) {
+        List<String> fields = new ArrayList<>(32);
+        while (Object.class != clazz && clazz != null) {
+            for (Field field : clazz.getDeclaredFields()) {
+                if (fieldFilter != null && !fieldFilter.test(field)) {
+                    continue;
+                }
+                fields.add(field.getName());
+            }
+            clazz = clazz.getSuperclass();
+        }
+        return fields;
+    }
+
+    /**
+     * 获取指定类的所有的field,包括父类
+     *
+     * @param clazz       字段所属类型
+     * @param fieldFilter 字段过滤器
+     * @return 符合过滤器条件的字段数组
+     */
     public static Field[] getFields(Class<?> clazz, Predicate<Field> fieldFilter) {
         List<Field> fields = new ArrayList<>(32);
         while (Object.class != clazz && clazz != null) {

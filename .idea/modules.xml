@@ -3,13 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/com-gang-common.iml" filepath="$PROJECT_DIR$/com-gang-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-cache/com-gang-common-cache.iml" filepath="$PROJECT_DIR$/common-cache/com-gang-common-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/cache/com-gang-common-cache.iml" filepath="$PROJECT_DIR$/cache/com-gang-common-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext/com-gang-common-ext.iml" filepath="$PROJECT_DIR$/ext/com-gang-common-ext.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-lib/com-gang-common-lib.iml" filepath="$PROJECT_DIR$/common-lib/com-gang-common-lib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mybatis/com-gang-common-mybatis.iml" filepath="$PROJECT_DIR$/mybatis/com-gang-common-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multiple-source/com-gang-common-multiple-source.iml" filepath="$PROJECT_DIR$/multiple-source/com-gang-common-multiple-source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-mybatis/com-gang-common-mybatis.iml" filepath="$PROJECT_DIR$/common-mybatis/com-gang-common-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-mybatis-plus/com-gang-common-mybatis-plus.iml" filepath="$PROJECT_DIR$/common-mybatis-plus/com-gang-common-mybatis-plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent-sdk/com-gang-common-parent-sdk.iml" filepath="$PROJECT_DIR$/parent-sdk/com-gang-common-parent-sdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis/com-gang-common-redis.iml" filepath="$PROJECT_DIR$/redis/com-gang-common-redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swagger/com-gang-common-swagger.iml" filepath="$PROJECT_DIR$/swagger/com-gang-common-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-swagger/com-gang-common-swagger.iml" filepath="$PROJECT_DIR$/common-swagger/com-gang-common-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext/sdk-parent/com-gang-ext-sdk-parent.iml" filepath="$PROJECT_DIR$/ext/sdk-parent/com-gang-ext-sdk-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext/workwechat/com-gang-ext-sdk-workwechat.iml" filepath="$PROJECT_DIR$/ext/workwechat/com-gang-ext-sdk-workwechat.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext/wechat/com-gang-ext-wechat.iml" filepath="$PROJECT_DIR$/ext/wechat/com-gang-ext-wechat.iml" />

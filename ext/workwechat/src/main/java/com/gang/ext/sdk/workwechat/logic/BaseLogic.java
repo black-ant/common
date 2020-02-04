@@ -1,9 +1,9 @@
 package com.gang.ext.sdk.workwechat.logic;
 
 
+import com.gang.common.lib.utils.CommonStringUtils;
 import com.gang.common.lib.utils.HttpClientUtils;
 import com.gang.common.lib.utils.JSONUtils;
-import com.gang.common.lib.utils.StringUtils;
 import com.gang.ext.sdk.workwechat.type.WorkWechatAPI;
 import org.springframework.stereotype.Component;
 
@@ -18,7 +18,9 @@ public class BaseLogic {
 
     public String getToken(String config) {
 
-        String backInfo = HttpClientUtils.doGet(StringUtils.replaceTemplateString(WorkWechatAPI.API_TOKEN.getRestAPI(), config));
+        String backInfo =
+                HttpClientUtils.doGet(CommonStringUtils.replaceTemplateString(WorkWechatAPI.API_TOKEN.getRestAPI(),
+                        config));
         return JSONUtils.getJSONParam("access_token", backInfo);
     }
 

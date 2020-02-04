@@ -19,5 +19,9 @@ public @interface SyncTO {
 
     String type() default "";
 
+    String app() default "";
+
+    String name() default "";
+
     String value() default "";
 }

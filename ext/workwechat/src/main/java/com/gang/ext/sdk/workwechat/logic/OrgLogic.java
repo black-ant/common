@@ -23,7 +23,7 @@ import org.springframework.stereotype.Component;
  * @Created by zengzg
  */
 @Component
-@SyncClass(type = "ORG")
+@SyncClass(type = "ORG", app = "WORK_WECHAT", name = "企业微信")
 public class OrgLogic extends AnyOperation {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
@@ -42,7 +42,7 @@ public class OrgLogic extends AnyOperation {
 
     @SyncCreate
     public ResponseModel create(OrgTO createTO, WorkWechatConfig config) {
-        logger.info("------> this is in create <-------");
+        logger.info("------> this is in create :{} <-------", JSONObject.toJSONString(createTO));
         String url = WorkWechatAPI.API_ORG_CREATE.getRestAPI().replace(WorkWechatAPI.TOKEN_CODE.getRestAPI(),
                 init(config));
         logger.info("------> get url :{} <-------", url);

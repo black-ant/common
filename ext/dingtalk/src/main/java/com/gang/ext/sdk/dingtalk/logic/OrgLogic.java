@@ -1,5 +1,6 @@
 package com.gang.ext.sdk.dingtalk.logic;
 
+import com.gang.sdk.api.annotation.SyncClass;
 import com.gang.sdk.api.annotation.SyncCreate;
 import com.gang.sdk.api.service.AnyOperation;
 import org.springframework.stereotype.Component;
@@ -11,6 +12,7 @@ import org.springframework.stereotype.Component;
  * @Created by zengzg
  */
 @Component
+@SyncClass(type = "ORG", app = "DINGTALK")
 public class OrgLogic extends AnyOperation {
 
     public void create() {

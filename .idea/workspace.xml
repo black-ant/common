@@ -2,35 +2,156 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="997c2b5d-a200-40ee-9d95-6c90097fb559" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_29_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_29_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_29_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_29_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_29_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_29_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_3_1_tmp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_3_1_tmp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_3_1_tmp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_3_1_tmp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_3_1_tmp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_3_1_tmp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-cache/com-gang-common-cache.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/common/ICacheOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/logic/CacheInvoke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/logic/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/utils/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-mybatis-plus/com-gang-common-mybatis-plus.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-mybatis-plus/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-mybatis-plus/src/main/java/com/gang/common/mybatisplus/DataBaseAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-mybatis-plus/src/main/java/com/gang/common/mybatisplus/MainLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext/sdk-api/src/main/java/com/gang/sdk/api/annotation/SyncField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multiple-source/com-gang-common-multiple-source.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/com-gang-common-cache.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cache/com-gang-common-cache.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-cache/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/src/main/java/com/gang/common/cache/CacheApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/CacheApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/src/main/java/com/gang/common/cache/utils/RedisInvoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/utils/RedisInvoke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/target/classes/com/gang/common/cache/CacheApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-cache/target/classes/com/gang/common/cache/CacheApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/target/classes/com/gang/common/cache/utils/RedisInvoke.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-cache/target/classes/com/gang/common/cache/utils/RedisInvoke.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/target/com-gang-common-cache-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-cache/target/com-gang-common-cache-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common-cache/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com-gang-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/com-gang-common.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-lib/com-gang-common-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/com-gang-common-lib.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext/com-gang-common-ext.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext/com-gang-common-ext.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/to/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/to/AbstractEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/to/ResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/to/ResponseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/utils/ReflectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/utils/ReflectionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/utils/CommonStringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/target/classes/com/gang/common/lib/to/AbstractEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/target/classes/com/gang/common/lib/to/AbstractEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/target/classes/com/gang/common/lib/to/ResponseModel$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/target/classes/com/gang/common/lib/to/ResponseModel$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/target/classes/com/gang/common/lib/to/ResponseModel$ResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/target/classes/com/gang/common/lib/to/ResponseModel$ResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/target/classes/com/gang/common/lib/to/ResponseModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/target/classes/com/gang/common/lib/to/ResponseModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/target/classes/com/gang/common/lib/utils/ReflectionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/target/classes/com/gang/common/lib/utils/ReflectionUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/target/classes/com/gang/common/lib/utils/StringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/target/com-gang-common-lib-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/target/com-gang-common-lib-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext/dingtalk/com-gang-sdk-dingtalk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext/dingtalk/com-gang-sdk-dingtalk.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/dingtalk/src/main/java/com/gang/ext/sdk/dingtalk/logic/OrgLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext/dingtalk/src/main/java/com/gang/ext/sdk/dingtalk/logic/OrgLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/dingtalk/src/main/java/com/gang/ext/sdk/dingtalk/logic/UserLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext/dingtalk/src/main/java/com/gang/ext/sdk/dingtalk/logic/UserLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/dingtalk/target/classes/com/gang/ext/sdk/dingtalk/logic/OrgLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/ext/dingtalk/target/classes/com/gang/ext/sdk/dingtalk/logic/OrgLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/dingtalk/target/classes/com/gang/ext/sdk/dingtalk/logic/UserLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/ext/dingtalk/target/classes/com/gang/ext/sdk/dingtalk/logic/UserLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/dingtalk/target/com-gang-sdk-dingtalk-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext/dingtalk/target/com-gang-sdk-dingtalk-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext/sdk-api/com-gang-sdk-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext/sdk-api/com-gang-sdk-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/sdk-api/src/main/java/com/gang/sdk/api/annotation/SyncClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext/sdk-api/src/main/java/com/gang/sdk/api/annotation/SyncClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/sdk-api/src/main/java/com/gang/sdk/api/annotation/SyncConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext/sdk-api/src/main/java/com/gang/sdk/api/annotation/SyncConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/sdk-api/src/main/java/com/gang/sdk/api/annotation/SyncTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext/sdk-api/src/main/java/com/gang/sdk/api/annotation/SyncTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/sdk-api/src/main/java/com/gang/sdk/api/to/SyncConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/sdk-api/target/classes/com/gang/sdk/api/annotation/SyncClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/ext/sdk-api/target/classes/com/gang/sdk/api/annotation/SyncClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/sdk-api/target/classes/com/gang/sdk/api/annotation/SyncConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/ext/sdk-api/target/classes/com/gang/sdk/api/annotation/SyncConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/sdk-api/target/classes/com/gang/sdk/api/annotation/SyncTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ext/sdk-api/target/classes/com/gang/sdk/api/annotation/SyncTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/sdk-api/target/classes/com/gang/sdk/api/to/SyncConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/sdk-api/target/com-gang-sdk-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext/sdk-api/target/com-gang-sdk-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext/wechat/com-gang-ext-wechat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext/wechat/com-gang-ext-wechat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/wechat/target/com-gang-ext-wechat-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext/wechat/target/com-gang-ext-wechat-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext/workwechat/com-gang-ext-sdk-workwechat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext/workwechat/com-gang-ext-sdk-workwechat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/workwechat/src/main/java/com/gang/ext/sdk/workwechat/logic/BaseLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext/workwechat/src/main/java/com/gang/ext/sdk/workwechat/logic/BaseLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/workwechat/src/main/java/com/gang/ext/sdk/workwechat/logic/OrgLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext/workwechat/src/main/java/com/gang/ext/sdk/workwechat/logic/OrgLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/workwechat/src/main/java/com/gang/ext/sdk/workwechat/logic/UserLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext/workwechat/src/main/java/com/gang/ext/sdk/workwechat/logic/UserLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/workwechat/src/main/java/com/gang/ext/sdk/workwechat/to/OrgTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext/workwechat/src/main/java/com/gang/ext/sdk/workwechat/to/OrgTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/workwechat/src/main/java/com/gang/ext/sdk/workwechat/to/UserTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext/workwechat/src/main/java/com/gang/ext/sdk/workwechat/to/UserTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/workwechat/src/main/java/com/gang/ext/sdk/workwechat/to/WorkWechatConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ext/workwechat/src/main/java/com/gang/ext/sdk/workwechat/to/WorkWechatConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/workwechat/target/classes/com/gang/ext/sdk/workwechat/logic/BaseLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/ext/workwechat/target/classes/com/gang/ext/sdk/workwechat/logic/BaseLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/workwechat/target/classes/com/gang/ext/sdk/workwechat/logic/OrgLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/ext/workwechat/target/classes/com/gang/ext/sdk/workwechat/logic/OrgLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/workwechat/target/classes/com/gang/ext/sdk/workwechat/logic/UserLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/ext/workwechat/target/classes/com/gang/ext/sdk/workwechat/logic/UserLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/workwechat/target/classes/com/gang/ext/sdk/workwechat/to/OrgTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ext/workwechat/target/classes/com/gang/ext/sdk/workwechat/to/OrgTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/workwechat/target/classes/com/gang/ext/sdk/workwechat/to/UserTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ext/workwechat/target/classes/com/gang/ext/sdk/workwechat/to/UserTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/workwechat/target/classes/com/gang/ext/sdk/workwechat/to/WorkWechatConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/ext/workwechat/target/classes/com/gang/ext/sdk/workwechat/to/WorkWechatConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/workwechat/target/com-gang-ext-sdk-workwechat-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext/workwechat/target/com-gang-ext-sdk-workwechat-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiple-source/target/com-gang-common-multiple-source-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/multiple-source/target/com-gang-common-multiple-source-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/.rebel.xml.bak" beforeDir="false" afterPath="$PROJECT_DIR$/common-mybatis/.rebel.xml.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/com-gang-commn-mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-mybatis/com-gang-commn-mybatis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/com-gang-common-mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-mybatis/com-gang-common-mybatis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/rebel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-mybatis/src/main/resources/rebel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/rebel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-mybatis/target/classes/rebel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/com-gang-commn-mybatis-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-mybatis/target/com-gang-commn-mybatis-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common-mybatis/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parent-sdk/com-gang-common-parent-sdk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-sdk/com-gang-common-parent-sdk.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger/com-gang-common-swagger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/swagger/com-gang-common-swagger.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent-sdk/target/com-gang-common-parent-sdk-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/parent-sdk/target/com-gang-common-parent-sdk-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/com-gang-common-swagger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-swagger/com-gang-common-swagger.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/common-swagger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-swagger/common-swagger.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-swagger/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/src/main/java/com/gang/common/swagger/SwaggerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-swagger/src/main/java/com/gang/common/swagger/SwaggerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/src/main/java/com/gang/common/swagger/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-swagger/src/main/java/com/gang/common/swagger/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/src/main/java/com/gang/common/swagger/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-swagger/src/main/java/com/gang/common/swagger/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/src/main/java/rebel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-swagger/src/main/java/rebel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/src/main/resources/application-swagger.yml" beforeDir="false" afterPath="$PROJECT_DIR$/common-swagger/src/main/resources/application-swagger.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/classes/META-INF/resources/swagger/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/classes/META-INF/resources/swagger/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/classes/META-INF/resources/swagger/oauth2-redirect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/classes/META-INF/resources/swagger/swagger-ui-bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/classes/META-INF/resources/swagger/swagger-ui-bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/classes/META-INF/resources/swagger/swagger-ui-standalone-preset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/classes/META-INF/resources/swagger/swagger-ui-standalone-preset.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/classes/META-INF/resources/swagger/swagger-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/classes/META-INF/resources/swagger/swagger-ui.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/classes/META-INF/resources/swagger/swagger-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/classes/META-INF/resources/swagger/swagger-ui.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/classes/application-swagger.yml" beforeDir="false" afterPath="$PROJECT_DIR$/common-swagger/target/classes/application-swagger.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/classes/com/gang/common/swagger/SwaggerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/classes/com/gang/common/swagger/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/classes/com/gang/common/swagger/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/com-gang-common-swagger-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-swagger/target/com-gang-common-swagger-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/dependency-maven-plugin-markers/org.webjars-swagger-ui-jar-3.19.4-132422490" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger-ui/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger-ui/META-INF/maven/org.webjars/swagger-ui/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger-ui/META-INF/maven/org.webjars/swagger-ui/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger-ui/META-INF/resources/webjars/swagger-ui/3.19.4/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger-ui/META-INF/resources/webjars/swagger-ui/3.19.4/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger-ui/META-INF/resources/webjars/swagger-ui/3.19.4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger-ui/META-INF/resources/webjars/swagger-ui/3.19.4/oauth2-redirect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger-ui/META-INF/resources/webjars/swagger-ui/3.19.4/swagger-ui-bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger-ui/META-INF/resources/webjars/swagger-ui/3.19.4/swagger-ui-bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger-ui/META-INF/resources/webjars/swagger-ui/3.19.4/swagger-ui-standalone-preset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger-ui/META-INF/resources/webjars/swagger-ui/3.19.4/swagger-ui-standalone-preset.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger-ui/META-INF/resources/webjars/swagger-ui/3.19.4/swagger-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger-ui/META-INF/resources/webjars/swagger-ui/3.19.4/swagger-ui.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger-ui/META-INF/resources/webjars/swagger-ui/3.19.4/swagger-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger-ui/META-INF/resources/webjars/swagger-ui/3.19.4/swagger-ui.js.map" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/ext/sdk-api/target/" />
@@ -47,6 +168,11 @@
     <ignored path="$PROJECT_DIR$/ext/sdk-parent/target/" />
     <ignored path="$PROJECT_DIR$/mybatis/target/" />
     <ignored path="$PROJECT_DIR$/cache/target/" />
+    <ignored path="$PROJECT_DIR$/multiple-source/target/" />
+    <ignored path="$PROJECT_DIR$/common-mybatis-plus/target/" />
+    <ignored path="$PROJECT_DIR$/common-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/common-swagger/target/" />
+    <ignored path="$PROJECT_DIR$/common-cache/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +191,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ext/dingtalk/src/main/java/com/gang/ext/sdk/dingtalk/logic/UserLogic.java">
+        <entry file="file://$PROJECT_DIR$/common-mybatis-plus/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -74,82 +200,109 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ext/dingtalk/src/main/java/com/gang/ext/sdk/dingtalk/logic/AbstractLogic.java">
+        <entry file="file://$PROJECT_DIR$/common-mybatis-plus/src/main/java/com/gang/common/mybatisplus/MainLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="528">
+              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2461#2599#0" expanded="true" />
+                <element signature="e#2598#2599#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ext/workwechat/src/main/java/com/gang/ext/sdk/workwechat/logic/BaseLogic.java">
+        <entry file="file://$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/logic/CacheInvoke.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            <state relative-caret-position="156">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/utils/HttpClientUtils.java">
+        <entry file="file://$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/logic/RedisCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="596">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#666#667#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common-lib/pom.xml">
+        <entry file="file://$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/utils/RedisInvoke.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="-1142">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/type/MimeTypeFileExtensionConvert.java">
+        <entry file="file://$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/utils/RedisUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="176">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/utils/ObjectUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/utils/ReflectionUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swagger/pom.xml">
+        <entry file="file://$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/common/ICacheOperation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="14" selection-start-line="14" selection-end-line="47" selection-end-column="21" />
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swagger/src/main/java/com/gang/common/swagger/SwaggerApplication.java">
+        <entry file="file://$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/CacheApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="180">
+              <caret line="15" selection-start-line="15" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-cache/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-mybatis-plus/src/main/java/com/gang/common/mybatisplus/DataBaseAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,7 +332,6 @@
         <option value="$PROJECT_DIR$/ext/sdk-parent/src/main/java/com/gang/ext/sdk/parent/service/StartService.java" />
         <option value="$PROJECT_DIR$/ext/pom.xml" />
         <option value="$PROJECT_DIR$/redis/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/swagger/src/main/java/com/gang/common/swagger/controller/TestController.java" />
         <option value="$PROJECT_DIR$/swagger/src/main/java/com/gang/common/swagger/config/SwaggerConfig.java" />
@@ -189,6 +341,18 @@
         <option value="$PROJECT_DIR$/swagger/pom.xml" />
         <option value="$PROJECT_DIR$/swagger/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/utils/ReflectionUtils.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/common-mybatis-plus/src/main/java/com/gang/common/mybatisplus/MainLogic.java" />
+        <option value="$PROJECT_DIR$/common-mybatis-plus/src/main/java/com/gang/common/mybatisplus/DataBaseAspect.java" />
+        <option value="$PROJECT_DIR$/common-mybatis-plus/pom.xml" />
+        <option value="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/CacheApplication.java" />
+        <option value="$PROJECT_DIR$/common-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/logic/CacheInvoke.java" />
+        <option value="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/logic/ICacheService.java" />
+        <option value="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/logic/ICacheOperation.java" />
+        <option value="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/common/ICacheOperation.java" />
+        <option value="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/logic/RedisCache.java" />
+        <option value="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/utils/RedisInvoke.java" />
       </list>
     </option>
   </component>
@@ -220,23 +384,14 @@
           <item name="com-gang-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="com-gang-common-swagger" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="com-gang-common-swagger" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="980" />
+    <option name="width" value="975" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
@@ -245,6 +400,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,25 +411,25 @@
             <path>
               <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="common-cache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="common-cache" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="common-cache" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="common-cache" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -281,7 +437,25 @@
             <path>
               <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="common-cache" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="common-cache" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="common-cache" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -290,53 +464,12 @@
             <path>
               <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="ext" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="ext" type="462c0819:PsiDirectoryNode" />
-              <item name="workwechat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="ext" type="462c0819:PsiDirectoryNode" />
-              <item name="workwechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="ext" type="462c0819:PsiDirectoryNode" />
-              <item name="workwechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="ext" type="462c0819:PsiDirectoryNode" />
-              <item name="workwechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="ext" type="462c0819:PsiDirectoryNode" />
-              <item name="workwechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,13 +480,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="jdk.selected.JAVA_MODULE" value="Java8_152" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../etl-server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.6275022" />
     <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.startup.StartupConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java\workspace\git\exp\common" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -408,11 +547,12 @@
       <workItem from="1579160588460" duration="867000" />
       <workItem from="1579400854769" duration="1681000" />
       <workItem from="1579858640039" duration="2335000" />
+      <workItem from="1580800621291" duration="6420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34693000" />
+    <option name="totallyTimeSpent" value="41113000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,9 +564,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49671772" visible="true" weight="0.35321715" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49671772" visible="true" weight="0.26407507" />
       <window_info id="Structure" order="1" sideWeight="0.50328225" side_tool="true" weight="0.35254693" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.50328225" side_tool="true" weight="0.4644772" />
@@ -443,7 +584,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32991204" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.37536657" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.37536657" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -486,7 +627,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/redis/pom.xml" />
     <entry file="file://$PROJECT_DIR$/redis/src/main/java/com,gang.common.redis/utils/RedisUtil.java" />
-    <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
+    <entry file="file://$PROJECT_DIR$/common-mybatis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="51" />
@@ -508,28 +649,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swagger/src/main/java/com/gang/common/swagger/config/SwaggerConfig.java">
+    <entry file="file://$PROJECT_DIR$/common-swagger/src/main/java/com/gang/common/swagger/config/SwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="968">
           <caret line="57" column="5" selection-start-line="27" selection-start-column="3" selection-end-line="57" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swagger/src/main/java/com/gang/common/swagger/controller/TestController.java">
+    <entry file="file://$PROJECT_DIR$/common-swagger/src/main/java/com/gang/common/swagger/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="18" column="27" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swagger/src/main/resources/application-swagger.yml">
+    <entry file="file://$PROJECT_DIR$/common-swagger/src/main/resources/application-swagger.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
@@ -550,10 +684,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/com-gang-common.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/ext/dingtalk/src/main/java/com/gang/ext/sdk/dingtalk/logic/UserLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ext/dingtalk/src/main/java/com/gang/ext/sdk/dingtalk/logic/AbstractLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ext/workwechat/src/main/java/com/gang/ext/sdk/workwechat/logic/BaseLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/utils/HttpClientUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -573,46 +731,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/utils/ReflectionUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
+        <state relative-caret-position="726">
           <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-gang-common.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swagger/pom.xml">
+    <entry file="file://$PROJECT_DIR$/common-swagger/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" selection-start-line="14" selection-end-line="47" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swagger/src/main/java/com/gang/common/swagger/SwaggerApplication.java">
+    <entry file="file://$PROJECT_DIR$/common-swagger/src/main/java/com/gang/common/swagger/SwaggerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext/dingtalk/src/main/java/com/gang/ext/sdk/dingtalk/logic/AbstractLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext/workwechat/src/main/java/com/gang/ext/sdk/workwechat/logic/BaseLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/utils/HttpClientUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -620,6 +754,113 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="e#33#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-mybatis-plus/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-mybatis-plus/src/main/java/com/gang/common/mybatisplus/DataBaseAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-mybatis-plus/src/main/java/com/gang/common/mybatisplus/MainLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2461#2599#0" expanded="true" />
+            <element signature="e#2598#2599#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-cache/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/CacheApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" selection-start-line="15" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/common/ICacheOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/logic/CacheInvoke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/logic/RedisCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/utils/RedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/utils/RedisInvoke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1142">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -643,7 +884,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.6275022" />
               </list>
             </option>
           </splitter-proportions>
@@ -673,10 +914,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>Java8_152</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.6275022" />
               </list>
             </option>
           </splitter-proportions>

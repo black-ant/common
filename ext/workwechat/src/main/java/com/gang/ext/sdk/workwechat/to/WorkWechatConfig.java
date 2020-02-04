@@ -1,6 +1,6 @@
 package com.gang.ext.sdk.workwechat.to;
 
-import com.gang.sdk.api.to.SyncConfig;
+import com.gang.sdk.api.annotation.SyncConfig;
 import lombok.Data;
 
 /**
@@ -10,8 +10,11 @@ import lombok.Data;
  * @Created by zengzg
  */
 @Data
-public class WorkWechatConfig extends SyncConfig {
+@SyncConfig(type = "CFG", app = "WORK_WECHAT", name = "企业微信配置")
+public class WorkWechatConfig {
 
-    private String accessToken;
+    private String appId;
+
+    private String appSecret;
 
 }

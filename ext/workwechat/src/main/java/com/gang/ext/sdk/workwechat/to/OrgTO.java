@@ -11,7 +11,7 @@ import lombok.Data;
  * @Created by zengzg
  */
 @Data
-@SyncTO(type = "ORG")
+@SyncTO(type = "ORG", app = "WORK_WECHAT", name = "企业微信")
 public class OrgTO extends SyncBaseBean {
 
     private String name;

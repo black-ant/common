@@ -10,7 +10,4 @@ import java.io.Serializable;
  */
 public class AbstractEntity implements Serializable {
 
-    private String id;
-
-
 }
