@@ -6,54 +6,99 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="com-gang-common-multiple-source" />
-        <module name="com-gang-common-mybatis" />
-        <module name="com-gang-ext-wechat" />
-        <module name="com-gang-sdk-api" />
-        <module name="com-gang-common-mybatis-plus" />
-        <module name="com-gang-common-lib" />
-        <module name="com-gang-sdk-dingtalk" />
-        <module name="com-gang-common-redis" />
-        <module name="com-gang-ext-sdk-workwechat" />
         <module name="com-gang-common-parent-sdk" />
-        <module name="com-gang-ext-sdk-parent" />
-        <module name="com-gang-common-swagger" />
         <module name="com-gang-common-cache" />
+        <module name="com-gang-common-msg-kafka" />
+        <module name="com-gang-common-schedule" />
+        <module name="com-gang-common-msg-rabbitmq" />
+        <module name="com-gang-common-redis" />
+        <module name="com-gang-common-lib" />
+        <module name="com-gang-common-multiple-source" />
+        <module name="com-gang-common-elastic" />
+        <module name="com-gang-common-msg-manage" />
+        <module name="com-gang-common-mybatis" />
+        <module name="com-gang-common-swagger" />
+        <module name="com-gang-common-msg-api" />
+        <module name="com-gang-common-mybatis-plus" />
+      </profile>
+      <profile name="Annotation profile for com-gang-ext-wechat" enabled="true">
+        <sourceOutputDir name="../../ext/wechat/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../ext/wechat/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="com-gang-ext-wechat" />
+      </profile>
+      <profile name="Annotation profile for com-gang-sdk-dingtalk" enabled="true">
+        <sourceOutputDir name="../../ext/dingtalk/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../ext/dingtalk/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="com-gang-sdk-dingtalk" />
+      </profile>
+      <profile name="Annotation profile for com-gang-ext-sdk-workwechat" enabled="true">
+        <sourceOutputDir name="../../ext/workwechat/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../ext/workwechat/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="com-gang-ext-sdk-workwechat" />
+      </profile>
+      <profile name="Annotation profile for com-gang-sdk-api" enabled="true">
+        <sourceOutputDir name="../../ext/sdk-api/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../ext/sdk-api/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="com-gang-sdk-api" />
+      </profile>
+      <profile name="Annotation profile for com-gang-common" enabled="true">
+        <sourceOutputDir name="../../ext/sdk-parent/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../ext/sdk-parent/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="com-gang-ext-sdk-parent" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com-gang-common" target="1.8" />
       <module name="com-gang-common-cache" target="1.8" />
-      <module name="com-gang-common-ext" target="1.8" />
+      <module name="com-gang-common-elastic" target="1.8" />
+      <module name="com-gang-common-ext-sync" target="1.8" />
       <module name="com-gang-common-lib" target="1.8" />
+      <module name="com-gang-common-msg-api" target="1.8" />
+      <module name="com-gang-common-msg-kafka" target="1.8" />
+      <module name="com-gang-common-msg-manage" target="1.8" />
+      <module name="com-gang-common-msg-rabbitmq" target="1.8" />
       <module name="com-gang-common-multiple-source" target="1.8" />
       <module name="com-gang-common-mybatis" target="1.8" />
       <module name="com-gang-common-mybatis-plus" target="1.8" />
       <module name="com-gang-common-parent-sdk" target="1.8" />
       <module name="com-gang-common-redis" target="1.8" />
+      <module name="com-gang-common-schedule" target="1.8" />
       <module name="com-gang-common-swagger" target="1.8" />
       <module name="com-gang-ext-sdk-parent" target="1.8" />
       <module name="com-gang-ext-sdk-workwechat" target="1.8" />
       <module name="com-gang-ext-wechat" target="1.8" />
       <module name="com-gang-sdk-api" target="1.8" />
       <module name="com-gang-sdk-dingtalk" target="1.8" />
+      <module name="ext-msg" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="com-gang-common-cache" options="-parameters -Xlint:unchecked" />
+      <module name="com-gang-common-elastic" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-lib" options="-parameters -Xlint:unchecked" />
+      <module name="com-gang-common-msg-api" options="-parameters -Xlint:unchecked" />
+      <module name="com-gang-common-msg-kafka" options="-parameters -Xlint:unchecked" />
+      <module name="com-gang-common-msg-manage" options="-parameters -Xlint:unchecked" />
+      <module name="com-gang-common-msg-rabbitmq" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-multiple-source" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-mybatis" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-mybatis-plus" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-parent-sdk" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-redis" options="-parameters -Xlint:unchecked" />
+      <module name="com-gang-common-schedule" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-swagger" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-ext-sdk-parent" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-ext-sdk-workwechat" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-ext-wechat" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-sdk-api" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-sdk-dingtalk" options="-parameters -Xlint:unchecked" />
+      <module name="ext-msg" options="-parameters -Xlint:unchecked" />
     </option>
   </component>
 </project>

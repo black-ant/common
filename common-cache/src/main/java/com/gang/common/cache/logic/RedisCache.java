@@ -15,11 +15,15 @@ import org.springframework.stereotype.Component;
  * @Created by zengzg
  */
 @Component
-public class RedisCache extends AbstractCache implements ICacheOperation<Object> {
+public class RedisCache extends AbstractCache<Object> {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     private RedisUtils redisUtils;
+
+    public RedisCache() {
+        init();
+    }
 
     @Override
     public Object get(String key) {

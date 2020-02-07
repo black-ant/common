@@ -1,10 +1,12 @@
 package com.gang.common.cache.logic;
 
+import com.gang.common.cache.common.ICacheOperation;
+
 /**
  * @Classname AbstractCache
  * @Description TODO
  * @Date 2020/2/4 22:03
  * @Created by zengzg
  */
-public class AbstractCache {
+public abstract class AbstractCache<T> implements ICacheOperation<T> {
 }

@@ -24,6 +24,9 @@
         <module>common-cache</module>
         <module>multiple-source</module>
         <module>common-mybatis-plus</module>
+        <module>ext-msg</module>
+        <module>common-schedule</module>
+        <module>common-elastic</module>
     </modules>
     <properties>
 
