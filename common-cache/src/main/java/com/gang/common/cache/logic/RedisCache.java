@@ -1,11 +1,9 @@
 package com.gang.common.cache.logic;
 
-import com.gang.common.cache.common.ICacheOperation;
+import com.gang.common.cache.common.AbstractCache;
 import com.gang.common.cache.utils.RedisUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
 
 /**

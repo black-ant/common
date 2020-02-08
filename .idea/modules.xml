@@ -6,23 +6,17 @@
       <module fileurl="file://$PROJECT_DIR$/common-cache/com-gang-common-cache.iml" filepath="$PROJECT_DIR$/common-cache/com-gang-common-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/cache/com-gang-common-cache.iml" filepath="$PROJECT_DIR$/cache/com-gang-common-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-elastic/com-gang-common-elastic.iml" filepath="$PROJECT_DIR$/common-elastic/com-gang-common-elastic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/common-elastic/com-gang-common-elastic.iml" filepath="$PROJECT_DIR$/common-elastic/com-gang-common-elastic.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-sync/com-gang-common-ext-sync.iml" filepath="$PROJECT_DIR$/ext-sync/com-gang-common-ext-sync.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-lib/com-gang-common-lib.iml" filepath="$PROJECT_DIR$/common-lib/com-gang-common-lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-msg/msg-api/com-gang-common-msg-api.iml" filepath="$PROJECT_DIR$/ext-msg/msg-api/com-gang-common-msg-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ext-msg/msg-api/com-gang-common-msg-api.iml" filepath="$PROJECT_DIR$/ext-msg/msg-api/com-gang-common-msg-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ext-msg/msg-kafka/com-gang-common-msg-kafka.iml" filepath="$PROJECT_DIR$/ext-msg/msg-kafka/com-gang-common-msg-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-msg/msg-kafka/com-gang-common-msg-kafka.iml" filepath="$PROJECT_DIR$/ext-msg/msg-kafka/com-gang-common-msg-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-msg/msg-manage/com-gang-common-msg-manage.iml" filepath="$PROJECT_DIR$/ext-msg/msg-manage/com-gang-common-msg-manage.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ext-msg/msg-manage/com-gang-common-msg-manage.iml" filepath="$PROJECT_DIR$/ext-msg/msg-manage/com-gang-common-msg-manage.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ext-msg/msg-rabbitmq/com-gang-common-msg-rabbitmq.iml" filepath="$PROJECT_DIR$/ext-msg/msg-rabbitmq/com-gang-common-msg-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-msg/msg-rabbitmq/com-gang-common-msg-rabbitmq.iml" filepath="$PROJECT_DIR$/ext-msg/msg-rabbitmq/com-gang-common-msg-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/multiple-source/com-gang-common-multiple-source.iml" filepath="$PROJECT_DIR$/multiple-source/com-gang-common-multiple-source.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-mybatis/com-gang-common-mybatis.iml" filepath="$PROJECT_DIR$/common-mybatis/com-gang-common-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-mybatis-plus/com-gang-common-mybatis-plus.iml" filepath="$PROJECT_DIR$/common-mybatis-plus/com-gang-common-mybatis-plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent-sdk/com-gang-common-parent-sdk.iml" filepath="$PROJECT_DIR$/parent-sdk/com-gang-common-parent-sdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis/com-gang-common-redis.iml" filepath="$PROJECT_DIR$/redis/com-gang-common-redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/common-schedule/com-gang-common-schedule.iml" filepath="$PROJECT_DIR$/common-schedule/com-gang-common-schedule.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-schedule/com-gang-common-schedule.iml" filepath="$PROJECT_DIR$/common-schedule/com-gang-common-schedule.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-swagger/com-gang-common-swagger.iml" filepath="$PROJECT_DIR$/common-swagger/com-gang-common-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-sync/sdk-parent/com-gang-ext-sdk-parent.iml" filepath="$PROJECT_DIR$/ext-sync/sdk-parent/com-gang-ext-sdk-parent.iml" />

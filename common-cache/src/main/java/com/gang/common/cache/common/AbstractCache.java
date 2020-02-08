@@ -1,4 +1,4 @@
-package com.gang.common.cache.logic;
+package com.gang.common.cache.common;
 
 import com.gang.common.cache.common.ICacheOperation;
 

@@ -2,6 +2,7 @@ package com.gang.common.cache.utils;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
 import java.util.List;
@@ -15,8 +16,10 @@ import java.util.concurrent.TimeUnit;
  * @Date 2020/2/4 21:34
  * @Created by zengzg
  */
+@Component
 public class RedisUtils {
 
+    @Autowired
     private RedisTemplate<String, Object> redisTemplate;
 
     public RedisUtils() {
