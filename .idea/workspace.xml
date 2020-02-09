@@ -2,41 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="997c2b5d-a200-40ee-9d95-6c90097fb559" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/check/RedisCheckLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/common/ICheckLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/config/CacheConfigInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/config/CacheManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/logic/MemoryCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-schedule/src/main/java/com/gang/common/schedule/to/ScheduleTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-schedule/src/main/java/com/gang/common/schedule/common/ITimeLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-gang-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/com-gang-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-cache/com-gang-common-cache.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-cache/com-gang-common-cache.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/logic/AbstractCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/common/AbstractCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/logic/CacheInvoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/common/CacheInvoke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/logic/RedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/logic/RedisCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/logic/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/common/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/utils/RedisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/utils/RedisUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-cache/target/classes/com/gang/common/cache/logic/AbstractCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-cache/target/classes/com/gang/common/cache/logic/CacheInvoke.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-cache/target/classes/com/gang/common/cache/logic/RedisCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-cache/target/classes/com/gang/common/cache/logic/RedisCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-cache/target/classes/com/gang/common/cache/logic/TestClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-cache/target/classes/com/gang/common/cache/utils/RedisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-cache/target/classes/com/gang/common/cache/utils/RedisUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-elastic/com-gang-common-elastic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-elastic/com-gang-common-elastic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-lib/com-gang-common-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/com-gang-common-lib.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-mybatis-plus/com-gang-common-mybatis-plus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-mybatis-plus/com-gang-common-mybatis-plus.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-schedule/com-gang-common-schedule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-schedule/com-gang-common-schedule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-swagger/com-gang-common-swagger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-swagger/com-gang-common-swagger.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-swagger/target/classes/com/gang/common/swagger/SwaggerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-swagger/target/classes/com/gang/common/swagger/config/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-swagger/target/classes/com/gang/common/swagger/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-msg/msg-api/com-gang-common-msg-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext-msg/msg-api/com-gang-common-msg-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-msg/msg-kafka/com-gang-common-msg-kafka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext-msg/msg-kafka/com-gang-common-msg-kafka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-msg/msg-manage/com-gang-common-msg-manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext-msg/msg-manage/com-gang-common-msg-manage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-msg/msg-rabbitmq/com-gang-common-msg-rabbitmq.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext-msg/msg-rabbitmq/com-gang-common-msg-rabbitmq.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiple-source/com-gang-common-multiple-source.iml" beforeDir="false" afterPath="$PROJECT_DIR$/multiple-source/com-gang-common-multiple-source.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent-sdk/com-gang-common-parent-sdk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-sdk/com-gang-common-parent-sdk.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-schedule/src/main/java/com/gang/common/schedule/logic/DelayedLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-schedule/src/main/java/com/gang/common/schedule/logic/DelayedLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-schedule/src/main/java/com/gang/common/schedule/logic/TimingLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-schedule/src/main/java/com/gang/common/schedule/logic/TimingLogic.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/ext/sdk-api/target/" />
@@ -85,27 +54,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/config/RedisConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../../resource/repo/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE-sources.jar!/org/springframework/data/redis/connection/RedisConnectionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/config/CacheManagement.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -163,7 +111,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common-schedule/src/main/java/com/gang/common/schedule/to/ScheduleTO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
@@ -173,19 +121,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-cache/pom.xml">
+        <entry file="file://$PROJECT_DIR$/common-schedule/src/main/java/com/gang/common/schedule/logic/DelayedLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="50" />
+            <state relative-caret-position="286">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common-schedule/src/main/java/com/gang/common/schedule/logic/TimingLogic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/common/AbstractCache.java">
+        <entry file="file://$PROJECT_DIR$/common-schedule/src/main/java/com/gang/common/schedule/common/ITimeLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="176">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-cache/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -212,9 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/redis/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/swagger/src/main/java/com/gang/common/swagger/controller/TestController.java" />
         <option value="$PROJECT_DIR$/swagger/src/main/java/com/gang/common/swagger/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/common-lib/pom.xml" />
         <option value="$PROJECT_DIR$/parent-sdk/pom.xml" />
@@ -263,6 +232,9 @@
         <option value="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/check/RedisCheckLogic.java" />
         <option value="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/config/CacheManagement.java" />
         <option value="$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/common/CacheInvoke.java" />
+        <option value="$PROJECT_DIR$/common-schedule/src/main/java/com/gang/common/schedule/common/ITimeLogic.java" />
+        <option value="$PROJECT_DIR$/common-schedule/src/main/java/com/gang/common/schedule/logic/DelayedLogic.java" />
+        <option value="$PROJECT_DIR$/common-schedule/src/main/java/com/gang/common/schedule/logic/TimingLogic.java" />
       </list>
     </option>
   </component>
@@ -351,6 +323,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="schedule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="common-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="common-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
@@ -452,12 +442,12 @@
       <workItem from="1581062785890" duration="109000" />
       <workItem from="1581073683114" duration="811000" />
       <workItem from="1581084892215" duration="2257000" />
-      <workItem from="1581134087309" duration="11507000" />
+      <workItem from="1581134087309" duration="13506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79528000" />
+    <option name="totallyTimeSpent" value="81527000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -470,6 +460,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49671772" visible="true" weight="0.29021448" />
       <window_info id="Structure" order="1" sideWeight="0.50328225" side_tool="true" weight="0.35254693" />
@@ -488,14 +479,14 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32991204" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" visible="true" weight="0.109970674" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" visible="true" weight="0.25513196" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32991204" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.329429" />
-      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.109970674" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.25513196" />
       <window_info anchor="bottom" id="Problems" order="16" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" weight="0.4750733" />
       <window_info anchor="bottom" id="Messages" order="18" />
@@ -515,33 +506,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common-mybatis-plus/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-cache/src/main/java/com/gang/common/cache/CacheApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="15" selection-start-line="15" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-mybatis-plus/src/main/java/com/gang/common/mybatisplus/DataBaseAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common-mybatis-plus/src/main/java/com/gang/common/mybatisplus/MainLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
@@ -901,6 +865,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-schedule/src/main/java/com/gang/common/schedule/common/ITimeLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-schedule/src/main/java/com/gang/common/schedule/logic/DelayedLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-schedule/src/main/java/com/gang/common/schedule/logic/TimingLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
