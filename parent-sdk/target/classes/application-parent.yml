@@ -1,6 +1,0 @@
-gang:
-  common:
-    swagger:
-      basePackage: "com.gang"
-server:
-  port: 8088
