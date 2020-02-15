@@ -7,4 +7,16 @@ package com.gang.common.schedule.to;
  * @Created by zengzg
  */
 public class ScheduleTO {
+
+    // 通用属性
+    private String id;
+    private String name;
+
+    class CreateTO {
+        private String param1;
+    }
+
+    class UpdateTO {
+        private String param2;
+    }
 }

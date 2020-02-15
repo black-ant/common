@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="997c2b5d-a200-40ee-9d95-6c90097fb559" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-schedule/src/main/java/com/gang/common/schedule/dao/AbstractDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_29_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com-gang-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/com-gang-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-cache/com-gang-common-cache.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-cache/com-gang-common-cache.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-elastic/com-gang-common-elastic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-elastic/com-gang-common-elastic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-lib/com-gang-common-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/com-gang-common-lib.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-mybatis-plus/com-gang-common-mybatis-plus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-mybatis-plus/com-gang-common-mybatis-plus.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-mybatis/com-gang-commn-mybatis.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-schedule/com-gang-common-schedule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-schedule/com-gang-common-schedule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-schedule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-schedule/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-swagger/com-gang-common-swagger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-swagger/com-gang-common-swagger.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-msg/msg-api/com-gang-common-msg-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext-msg/msg-api/com-gang-common-msg-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-msg/msg-kafka/com-gang-common-msg-kafka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext-msg/msg-kafka/com-gang-common-msg-kafka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-msg/msg-manage/com-gang-common-msg-manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext-msg/msg-manage/com-gang-common-msg-manage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-msg/msg-rabbitmq/com-gang-common-msg-rabbitmq.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext-msg/msg-rabbitmq/com-gang-common-msg-rabbitmq.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiple-source/com-gang-common-multiple-source.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent-sdk/com-gang-common-parent-sdk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-sdk/com-gang-common-parent-sdk.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent-sdk/target/classes/application-parent.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent-sdk/target/classes/application.yml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/ext/sdk-api/target/" />
@@ -397,12 +376,12 @@
       <workItem from="1581084892215" duration="2257000" />
       <workItem from="1581134087309" duration="13506000" />
       <workItem from="1581299048006" duration="689000" />
-      <workItem from="1581602394110" duration="2731000" />
+      <workItem from="1581602394110" duration="2926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84947000" />
+    <option name="totallyTimeSpent" value="85142000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,9 +394,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49671772" visible="true" weight="0.29825738" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49671772" visible="true" weight="0.29825738" />
       <window_info id="Structure" order="1" sideWeight="0.50328225" side_tool="true" weight="0.35254693" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.50328225" side_tool="true" weight="0.4644772" />
@@ -434,7 +412,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32991204" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49798927" visible="true" weight="0.25513196" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49798927" visible="true" weight="0.25513196" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
