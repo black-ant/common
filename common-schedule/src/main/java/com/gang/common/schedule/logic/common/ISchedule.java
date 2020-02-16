@@ -9,4 +9,6 @@ package com.gang.common.schedule.logic.common;
 public interface ISchedule<T> {
 
     Boolean init(T t);
+
+    Boolean registry(String cron);
 }

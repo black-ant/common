@@ -21,6 +21,11 @@ public class ScheduleThread extends Thread implements ISchedule<String> {
     }
 
     @Override
+    public Boolean registry(String cron) {
+        return null;
+    }
+
+    @Override
     public void run() {
         logger.info("------> this run run <-------");
     }

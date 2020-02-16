@@ -11,15 +11,16 @@
         <module name="com-gang-common-msg-kafka" />
         <module name="com-gang-common-schedule" />
         <module name="com-gang-common-msg-rabbitmq" />
-        <module name="com-gang-common-redis" />
+        <module name="com-gang-common-job" />
         <module name="com-gang-common-lib" />
         <module name="com-gang-common-multiple-source" />
         <module name="com-gang-common-elastic" />
         <module name="com-gang-common-msg-manage" />
         <module name="com-gang-common-mybatis" />
         <module name="com-gang-common-swagger" />
-        <module name="com-gang-common-msg-api" />
+        <module name="com-gang-common-redis" />
         <module name="com-gang-common-mybatis-plus" />
+        <module name="com-gang-common-msg-api" />
       </profile>
       <profile name="Annotation profile for com-gang-ext-wechat" enabled="true">
         <sourceOutputDir name="../../ext/wechat/target/generated-sources/annotations" />
@@ -57,6 +58,7 @@
       <module name="com-gang-common-cache" target="1.8" />
       <module name="com-gang-common-elastic" target="1.8" />
       <module name="com-gang-common-ext-sync" target="1.8" />
+      <module name="com-gang-common-job" target="1.8" />
       <module name="com-gang-common-lib" target="1.8" />
       <module name="com-gang-common-msg-api" target="1.8" />
       <module name="com-gang-common-msg-kafka" target="1.8" />
@@ -81,6 +83,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="com-gang-common-cache" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-elastic" options="-parameters -Xlint:unchecked" />
+      <module name="com-gang-common-job" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-lib" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-msg-api" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-msg-kafka" options="-parameters -Xlint:unchecked" />

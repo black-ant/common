@@ -27,6 +27,7 @@
         <module>ext-msg</module>
         <module>common-schedule</module>
         <module>common-elastic</module>
+        <module>common-job</module>
     </modules>
     <properties>
 
