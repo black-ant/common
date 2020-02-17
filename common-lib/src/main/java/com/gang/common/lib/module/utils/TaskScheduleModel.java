@@ -1,5 +1,11 @@
 package com.gang.common.lib.module.utils;
 
+import com.gang.common.lib.utils.CommonStringUtils;
+import org.apache.commons.lang3.StringUtils;
+
+import java.util.HashMap;
+import java.util.List;
+
 /**
  * @Classname TaskScheduleModel
  * @Description TODO
@@ -8,100 +14,79 @@ package com.gang.common.lib.module.utils;
  */
 public class TaskScheduleModel {
 
+    private TaskSchedulTypeEnum taskSchedulTypeEnum = TaskSchedulTypeEnum.DEFAULT_ZERO;
+
     /**
+     * 定时或间隔
      * 所选作业类型:
      * 1  -> 每天
      * 2  -> 每月
      * 3  -> 每周
      * 4  -> 间隔
      */
-    Integer jobType;
+    private HashMap<String, String> timeNum = new HashMap<>();
 
     /**
-     * 一周的哪几天
+     * 范围
      */
-    Integer[] dayOfWeeks;
+    private HashMap<String, String> timeIntervalNum = new HashMap<>();
+
+    public HashMap<String, String> getTimeNum() {
+        return timeNum;
+    }
+
+    public HashMap<String, String> getTimeIntervalNum() {
+        return timeIntervalNum;
+    }
+
+    public TaskScheduleModel addTimeNum(TaskSchedulTypeEnum taskSchedulTypeEnum, String numTime) {
+        timeNum.put(taskSchedulTypeEnum.getCode(), numTime);
+        this.taskSchedulTypeEnum = TaskSchedulTypeEnum.DEFAULT_ANY;
+        return this;
+    }
 
     /**
-     * 一个月的哪几天
+     * 设置时间间隔
+     *
+     * @param taskSchedulTypeEnum
+     * @param numTime
+     * @return
      */
-    Integer[] dayOfMonths;
+    public TaskScheduleModel addTimeInterval(TaskSchedulTypeEnum taskSchedulTypeEnum, String numTime) {
+        timeNum.put(taskSchedulTypeEnum.getCode(), "0/" + numTime);
+        this.taskSchedulTypeEnum = TaskSchedulTypeEnum.DEFAULT_ANY;
+        return this;
+    }
 
     /**
-     * 秒
+     * 设置时间范围
+     *
+     * @param taskSchedulTypeEnum
+     * @param start
+     * @param end
      */
-    Integer second;
+    public TaskScheduleModel addTimeRange(TaskSchedulTypeEnum taskSchedulTypeEnum, String start, String end) {
+        if ("WEEK".equals(taskSchedulTypeEnum.getCode())) {
+            timeNum.put(taskSchedulTypeEnum.getCode(), start + "/" + end);
+        } else {
+            timeNum.put(taskSchedulTypeEnum.getCode(), start + "-" + end);
+        }
+        return this;
+    }
 
     /**
-     * 分
+     * 设置多个时间
+     *
+     * @param taskSchedulTypeEnum
+     * @param times
      */
-    Integer minute;
-
-    /**
-     * 时
-     */
-    Integer hour;
-
-    public TaskScheduleModel(Integer jobType) {
-        this.jobType = jobType;
-        this.second = 0;
-        this.minute = 0;
-        this.hour = 0;
+    public TaskScheduleModel addTimeManyNum(TaskSchedulTypeEnum taskSchedulTypeEnum, List<String> times) {
+        timeNum.put(taskSchedulTypeEnum.getCode(), StringUtils.join(times.toArray(), ","));
+        return this;
     }
 
-    public TaskScheduleModel(Integer jobType, Integer second, Integer minute, Integer hour) {
-        this.jobType = jobType;
-        this.second = second;
-        this.minute = minute;
-        this.hour = hour;
-    }
-
-    public Integer getJobType() {
-        return jobType;
-    }
-
-    public void setJobType(Integer jobType) {
-        this.jobType = jobType;
-    }
-
-    public Integer[] getDayOfWeeks() {
-        return dayOfWeeks;
-    }
-
-    public void setDayOfWeeks(Integer[] dayOfWeeks) {
-        this.dayOfWeeks = dayOfWeeks;
-    }
-
-    public Integer[] getDayOfMonths() {
-        return dayOfMonths;
-    }
-
-    public void setDayOfMonths(Integer[] dayOfMonths) {
-        this.dayOfMonths = dayOfMonths;
-    }
-
-    public Integer getSecond() {
-        return second;
-    }
-
-    public void setSecond(Integer second) {
-        this.second = second;
-    }
-
-    public Integer getMinute() {
-        return minute;
-    }
-
-    public void setMinute(Integer minute) {
-        this.minute = minute;
-    }
-
-    public Integer getHour() {
-        return hour;
-    }
-
-    public void setHour(Integer hour) {
-        this.hour = hour;
+    public TaskSchedulTypeEnum getTaskSchedulTypeEnum() {
+        return taskSchedulTypeEnum;
     }
 }
 

@@ -9,28 +9,55 @@ package com.gang.common.lib.module.utils;
 public enum TaskSchedulTypeEnum {
 
     // Common
-    MOUTH(0), WEEK(1), DAY(2), HOUR(3),
+    YEAR("101", "YEAR"),
+    MOUTH("102", "MOUTH"),
+    WEEK("103", "WEEK"),
+    DAY("104", "DAY"),
+    HOUR("105", "HOUR"),
+    MINUTE("106", "MINUTE"),
+    SECONDS("107", "SECONDS"),
+
+    // Type
+    CODE_PREFIX_CONTINUOUS("301", "0/"),
+    CODE_MIDLE_INTERVAL("302", "-"),
+    CODE_INTERVAL("303", " "),
+    CODE_REGULAR_FULL("304", "*"),
 
     // 间隔秒
-    INTERVAL_SECONDS(501),
+    INTERVAL("20"),
 
-    INTERVAL_MINUTE(502),
+    INTERVAL_SECONDS("201"),
 
-    // 间隔小时
-    INTERVAL_HOUR(503),
+    INTERVAL_MINUTE("202"),
 
-    // 间隔天
-    INTERVAL_DAY(504),
+    INTERVAL_HOUR("203"),
 
-    INTERVAL_WEWK(504);
+    INTERVAL_DAY("204"),
 
-    private Integer type;
+    INTERVAL_WEWK("205"),
 
-    TaskSchedulTypeEnum(Integer type) {
+    DEFAULT_ZERO("501", "0"),
+    DEFAULT_ANY("502", "*"),
+
+    DEFAULT_WEEK("503", "?");
+
+    private String type;
+    private String code;
+
+    TaskSchedulTypeEnum(String type) {
         this.type = type;
     }
 
-    public Integer getType() {
+    TaskSchedulTypeEnum(String type, String code) {
+        this.type = type;
+        this.code = code;
+    }
+
+    public String getType() {
         return type;
+    }
+
+    public String getCode() {
+        return code;
     }
 }

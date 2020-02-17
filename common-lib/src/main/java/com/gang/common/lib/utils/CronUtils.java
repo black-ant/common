@@ -3,9 +3,14 @@ package com.gang.common.lib.utils;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.cron.pattern.matcher.DayOfMonthValueMatcher;
 import cn.hutool.cron.pattern.matcher.ValueMatcher;
+import com.gang.common.lib.exception.UtilsException;
 import com.gang.common.lib.module.utils.TaskSchedulTypeEnum;
 import com.gang.common.lib.module.utils.TaskScheduleModel;
+import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import java.util.Arrays;
 import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.TimeZone;
@@ -18,6 +23,14 @@ import java.util.TimeZone;
  */
 public class CronUtils {
 
+    private static Logger logger = LoggerFactory.getLogger(CronUtils.class);
+
+//    public static void main(String[] args) {
+    //        TaskScheduleModel taskScheduleModel = new TaskScheduleModel();
+    //        taskScheduleModel.addTimeNum(TaskSchedulTypeEnum.DAY, "3").addTimeNum(TaskSchedulTypeEnum.MINUTE, "5")
+    //        .addTimeNum(TaskSchedulTypeEnum.SECONDS, "5");
+    //        logger.info("------> {}  <-------", createCronExpression(taskScheduleModel));
+    //    }
 
     /**
      * 是否匹配日（指定月份的第几天）
@@ -47,39 +60,37 @@ public class CronUtils {
         return (matchers.size() <= index) || matchers.get(index).match(value);
     }
 
-    public static TaskScheduleModel build(TaskSchedulTypeEnum schedulTypeEnum) {
-        return new TaskScheduleModel(schedulTypeEnum.getType());
+
+    public static String createCronExpression(TaskScheduleModel taskScheduleModel) {
+        StringBuffer cronExp = new StringBuffer("");
+        List<String> getList = Arrays.asList(new String[]{"SECONDS", "MINUTE", "HOUR", "DAY", "MOUTH", "WEEK"});
+        getList.forEach(item -> {
+            editCronExpression(item, taskScheduleModel, cronExp);
+        });
+        return cronExp.toString();
     }
 
-    /**
-     * Time
-     * 1  : 间隔多久
-     * 2  : 定时时间 : 每天几点 ,每周几 ,每月几号
-     *
-     * @param schedulTypeEnum
-     * @param time
-     * @return
-     */
-    public static TaskScheduleModel build(TaskSchedulTypeEnum schedulTypeEnum, Integer time) {
+    public static void editCronExpression(String type, TaskScheduleModel taskScheduleModel, StringBuffer cronExp) {
+        String str;
+        if (null != taskScheduleModel.getTimeNum().get(type)) {
+            str = taskScheduleModel.getTimeNum().get(type);
+        } else if (null != taskScheduleModel.getTimeIntervalNum().get(type)) {
+            str = taskScheduleModel.getTimeIntervalNum().get(type);
+        } else {
+            if (type.equals("WEEK")) {
+                str = TaskSchedulTypeEnum.DEFAULT_WEEK.getCode();
+            } else {
+                str = taskScheduleModel.getTaskSchedulTypeEnum().getCode();
+            }
 
-        Integer second = 0;
-        Integer minute = 0;
-        Integer hour = 0;
-        switch (schedulTypeEnum) {
-            case INTERVAL_SECONDS:
-                second = time;
-                break;
-            case INTERVAL_MINUTE:
-                minute = time;
-                break;
-            case INTERVAL_HOUR:
-                hour = time;
-                break;
+        }
+        cronExp.append(str);
+
+        if (!type.equals("WEEK")) {
+            cronExp.append(" ");
         }
 
-        return new TaskScheduleModel(schedulTypeEnum.getType(), second, minute, hour);
     }
-
 
     /**
      * 方法摘要：构建Cron表达式
@@ -87,105 +98,84 @@ public class CronUtils {
      * @param taskScheduleModel
      * @return String
      */
-    public static String createCronExpression(TaskScheduleModel taskScheduleModel) {
-        StringBuffer cronExp = new StringBuffer("");
+    //    public static String createCronExpression1(TaskScheduleModel taskScheduleModel) {
+    //        StringBuffer cronExp = new StringBuffer("");
+    ////
+    ////        if (null == taskScheduleModel.getJobType()) {
+    ////            System.out.println("执行周期未配置");//执行周期未配置
+    ////        }
+    ////
+    ////        if (null != taskScheduleModel.getSecond()
+    ////                && null != taskScheduleModel.getMinute()
+    ////                && null != taskScheduleModel.getHour()) {
+    ////            //秒
+    ////            cronExp.append(taskScheduleModel.getSecond()).append(" ");
+    ////            //分
+    ////            cronExp.append(taskScheduleModel.getMinute()).append(" ");
+    ////            //小时
+    ////            cronExp.append(taskScheduleModel.getHour()).append(" ");
+    ////
+    ////            //每天
+    ////            if (taskScheduleModel.getJobType().intValue() == 1) {
+    ////                cronExp.append("* ");//日
+    ////                cronExp.append("* ");//月
+    ////                cronExp.append("?");//周
+    ////            }
+    ////
+    ////            //按每周
+    ////            else if (taskScheduleModel.getJobType().intValue() == 3) {
+    ////                //一个月中第几天
+    ////                cronExp.append("? ");
+    ////                //月份
+    ////                cronExp.append("* ");
+    ////                //周
+    ////                Integer[] weeks = taskScheduleModel.getDayOfWeeks();
+    ////                for (int i = 0; i < weeks.length; i++) {
+    ////                    if (i == 0) {
+    ////                        cronExp.append(weeks[i]);
+    ////                    } else {
+    ////                        cronExp.append(",").append(weeks[i]);
+    ////                    }
+    ////                }
+    ////
+    ////            }
+    ////            //按每月
+    ////            else if (taskScheduleModel.getJobType().intValue() == 2) {
+    ////                //一个月中的哪几天
+    ////                Integer[] days = taskScheduleModel.getDayOfMonths();
+    ////                for (int i = 0; i < days.length; i++) {
+    ////                    if (i == 0) {
+    ////                        cronExp.append(days[i]);
+    ////                    } else {
+    ////                        cronExp.append(",").append(days[i]);
+    ////                    }
+    ////                }
+    ////                //月份
+    ////                cronExp.append(" * ");
+    ////                //周
+    ////                cronExp.append("?");
+    ////            } else if (taskScheduleModel.getJobType().intValue() == 2) {
+    ////                //一个月中的哪几天
+    ////                Integer[] days = taskScheduleModel.getDayOfMonths();
+    ////                for (int i = 0; i < days.length; i++) {
+    ////                    if (i == 0) {
+    ////                        cronExp.append(days[i]);
+    ////                    } else {
+    ////                        cronExp.append(",").append(days[i]);
+    ////                    }
+    ////                }
+    ////                //月份
+    ////                cronExp.append(" * ");
+    ////                //周
+    ////                cronExp.append("?");
+    ////            }
+    ////
+    ////        } else {
+    ////            System.out.println("时或分或秒参数未配置");//时或分或秒参数未配置
+    ////        }
+    ////        return cronExp.toString();
+    //    }
 
-        if (null == taskScheduleModel.getJobType()) {
-            System.out.println("执行周期未配置");//执行周期未配置
-        }
-
-        if (null != taskScheduleModel.getSecond()
-                && null != taskScheduleModel.getMinute()
-                && null != taskScheduleModel.getHour()) {
-            //秒
-            cronExp.append(taskScheduleModel.getSecond()).append(" ");
-            //分
-            cronExp.append(taskScheduleModel.getMinute()).append(" ");
-            //小时
-            cronExp.append(taskScheduleModel.getHour()).append(" ");
-
-            //每天
-            if (taskScheduleModel.getJobType().intValue() == 1) {
-                cronExp.append("* ");//日
-                cronExp.append("* ");//月
-                cronExp.append("?");//周
-            }
-
-            //按每周
-            else if (taskScheduleModel.getJobType().intValue() == 3) {
-                //一个月中第几天
-                cronExp.append("? ");
-                //月份
-                cronExp.append("* ");
-                //周
-                Integer[] weeks = taskScheduleModel.getDayOfWeeks();
-                for (int i = 0; i < weeks.length; i++) {
-                    if (i == 0) {
-                        cronExp.append(weeks[i]);
-                    } else {
-                        cronExp.append(",").append(weeks[i]);
-                    }
-                }
-
-            }
-            //按每月
-            else if (taskScheduleModel.getJobType().intValue() == 2) {
-                //一个月中的哪几天
-                Integer[] days = taskScheduleModel.getDayOfMonths();
-                for (int i = 0; i < days.length; i++) {
-                    if (i == 0) {
-                        cronExp.append(days[i]);
-                    } else {
-                        cronExp.append(",").append(days[i]);
-                    }
-                }
-                //月份
-                cronExp.append(" * ");
-                //周
-                cronExp.append("?");
-            } else if (taskScheduleModel.getJobType().intValue() == 2) {
-                //一个月中的哪几天
-                Integer[] days = taskScheduleModel.getDayOfMonths();
-                for (int i = 0; i < days.length; i++) {
-                    if (i == 0) {
-                        cronExp.append(days[i]);
-                    } else {
-                        cronExp.append(",").append(days[i]);
-                    }
-                }
-                //月份
-                cronExp.append(" * ");
-                //周
-                cronExp.append("?");
-            }
-
-        } else {
-            System.out.println("时或分或秒参数未配置");//时或分或秒参数未配置
-        }
-        return cronExp.toString();
-    }
-
-    /**
-     * 递归处理每一级
-     *
-     * @return
-     */
-    public String cronEdit(String cron) {
-
-    }
-
-    /**
-     * 获取时间间隔
-     *
-     * @return
-     */
-    public static String getCronInterval(Integer time) {
-        return "0/" + time;
-    }
-
-    public static String getBetweenTime(Integer start, Integer end) {
-        return start + "-" + end;
-    }
 
     /**
      * 方法摘要：生成计划的详细描述
@@ -193,62 +183,64 @@ public class CronUtils {
      * @param taskScheduleModel
      * @return String
      */
-    public static String createDescription(TaskScheduleModel taskScheduleModel) {
-        StringBuffer description = new StringBuffer("");
-        //计划执行开始时间
-        //      Date startTime = taskScheduleModel.getScheduleStartTime();
-
-        if (null != taskScheduleModel.getSecond()
-                && null != taskScheduleModel.getMinute()
-                && null != taskScheduleModel.getHour()) {
-            //按每天
-            if (taskScheduleModel.getJobType().intValue() == 1) {
-                description.append("每天");
-                description.append(taskScheduleModel.getHour()).append("时");
-                description.append(taskScheduleModel.getMinute()).append("分");
-                description.append(taskScheduleModel.getSecond()).append("秒");
-                description.append("执行");
-            }
-
-            //按每周
-            else if (taskScheduleModel.getJobType().intValue() == 3) {
-                if (taskScheduleModel.getDayOfWeeks() != null && taskScheduleModel.getDayOfWeeks().length > 0) {
-                    String days = "";
-                    for (int i : taskScheduleModel.getDayOfWeeks()) {
-                        days += "周" + i;
-                    }
-                    description.append("每周的").append(days).append(" ");
-                }
-                if (null != taskScheduleModel.getSecond()
-                        && null != taskScheduleModel.getMinute()
-                        && null != taskScheduleModel.getHour()) {
-                    description.append(",");
-                    description.append(taskScheduleModel.getHour()).append("时");
-                    description.append(taskScheduleModel.getMinute()).append("分");
-                    description.append(taskScheduleModel.getSecond()).append("秒");
-                }
-                description.append("执行");
-            }
-
-            //按每月
-            else if (taskScheduleModel.getJobType().intValue() == 2) {
-                //选择月份
-                if (taskScheduleModel.getDayOfMonths() != null && taskScheduleModel.getDayOfMonths().length > 0) {
-                    String days = "";
-                    for (int i : taskScheduleModel.getDayOfMonths()) {
-                        days += i + "号";
-                    }
-                    description.append("每月的").append(days).append(" ");
-                }
-                description.append(taskScheduleModel.getHour()).append("时");
-                description.append(taskScheduleModel.getMinute()).append("分");
-                description.append(taskScheduleModel.getSecond()).append("秒");
-                description.append("执行");
-            }
-
-        }
-        return description.toString();
-    }
+    //    public static String createDescription(TaskScheduleModel taskScheduleModel) {
+    //        StringBuffer description = new StringBuffer("");
+    //        //计划执行开始时间
+    //        //      Date startTime = taskScheduleModel.getScheduleStartTime();
+    //
+    //        if (null != taskScheduleModel.getSecond()
+    //                && null != taskScheduleModel.getMinute()
+    //                && null != taskScheduleModel.getHour()) {
+    //            //按每天
+    //            if (taskScheduleModel.getJobType().intValue() == 1) {
+    //                description.append("每天");
+    //                description.append(taskScheduleModel.getHour()).append("时");
+    //                description.append(taskScheduleModel.getMinute()).append("分");
+    //                description.append(taskScheduleModel.getSecond()).append("秒");
+    //                description.append("执行");
+    //            }
+    //
+    //            //按每周
+    //            else if (taskScheduleModel.getJobType().intValue() == 3) {
+    //                if (taskScheduleModel.getDayOfWeeks() != null && taskScheduleModel.getDayOfWeeks().length >
+    //                0) {
+    //                    String days = "";
+    //                    for (int i : taskScheduleModel.getDayOfWeeks()) {
+    //                        days += "周" + i;
+    //                    }
+    //                    description.append("每周的").append(days).append(" ");
+    //                }
+    //                if (null != taskScheduleModel.getSecond()
+    //                        && null != taskScheduleModel.getMinute()
+    //                        && null != taskScheduleModel.getHour()) {
+    //                    description.append(",");
+    //                    description.append(taskScheduleModel.getHour()).append("时");
+    //                    description.append(taskScheduleModel.getMinute()).append("分");
+    //                    description.append(taskScheduleModel.getSecond()).append("秒");
+    //                }
+    //                description.append("执行");
+    //            }
+    //
+    //            //按每月
+    //            else if (taskScheduleModel.getJobType().intValue() == 2) {
+    //                //选择月份
+    //                if (taskScheduleModel.getDayOfMonths() != null && taskScheduleModel.getDayOfMonths().length
+    //                > 0) {
+    //                    String days = "";
+    //                    for (int i : taskScheduleModel.getDayOfMonths()) {
+    //                        days += i + "号";
+    //                    }
+    //                    description.append("每月的").append(days).append(" ");
+    //                }
+    //                description.append(taskScheduleModel.getHour()).append("时");
+    //                description.append(taskScheduleModel.getMinute()).append("分");
+    //                description.append(taskScheduleModel.getSecond()).append("秒");
+    //                description.append("执行");
+    //            }
+    //
+    //        }
+    //        return description.toString();
+    //    }
 
     //    //参考例子
     //    public static void main(String[] args) {
