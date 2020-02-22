@@ -11,5 +11,11 @@
 
     <artifactId>com-gang-common-msg-api</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.gang</groupId>
+            <artifactId>com-gang-common-lib</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 </project>

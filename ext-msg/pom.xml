@@ -17,5 +17,6 @@
         <module>msg-rabbitmq</module>
         <module>msg-manage</module>
         <module>msg-api</module>
+        <module>msg-email</module>
     </modules>
 </project>

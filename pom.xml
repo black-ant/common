@@ -17,7 +17,7 @@
 
     <modules>
         <module>common-swagger</module>
-        <module>ext</module>
+
         <module>parent-sdk</module>
         <module>common-lib</module>
         <module>common-mybatis</module>
@@ -25,9 +25,11 @@
         <module>multiple-source</module>
         <module>common-mybatis-plus</module>
         <module>ext-msg</module>
+        <module>ext-sync</module>
         <module>common-schedule</module>
         <module>common-elastic</module>
         <module>common-job</module>
+        <module>common-email</module>
     </modules>
     <properties>
 
