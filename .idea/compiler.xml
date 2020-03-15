@@ -7,13 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="om-gang-common-msg-email" />
+        <module name="com-gang-common-msg-api" />
         <module name="com-gang-common-parent-sdk" />
         <module name="com-gang-common-cache" />
-        <module name="com-gang-ext-sdk-parent" />
         <module name="com-gang-common-msg-kafka" />
         <module name="com-gang-sdk-dingtalk" />
         <module name="com-gang-common-schedule" />
         <module name="com-gang-common-msg-rabbitmq" />
+        <module name="com-gang-common-flowable" />
         <module name="com-gang-common-job" />
         <module name="com-gang-ext-wechat" />
         <module name="com-gang-common-lib" />
@@ -25,8 +26,9 @@
         <module name="com-gang-common-mybatis" />
         <module name="com-gang-common-swagger" />
         <module name="com-gang-common-redis" />
+        <module name="com-gang-ext-sdk-parent" />
         <module name="com-gang-common-mybatis-plus" />
-        <module name="com-gang-common-msg-api" />
+        <module name="com-gang-common-msg-sms" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -35,12 +37,14 @@
       <module name="com-gang-common-elastic" target="1.8" />
       <module name="com-gang-common-email" target="1.8" />
       <module name="com-gang-common-ext-sync" target="1.8" />
+      <module name="com-gang-common-flowable" target="1.8" />
       <module name="com-gang-common-job" target="1.8" />
       <module name="com-gang-common-lib" target="1.8" />
       <module name="com-gang-common-msg-api" target="1.8" />
       <module name="com-gang-common-msg-kafka" target="1.8" />
       <module name="com-gang-common-msg-manage" target="1.8" />
       <module name="com-gang-common-msg-rabbitmq" target="1.8" />
+      <module name="com-gang-common-msg-sms" target="1.8" />
       <module name="com-gang-common-multiple-source" target="1.8" />
       <module name="com-gang-common-mybatis" target="1.8" />
       <module name="com-gang-common-mybatis-plus" target="1.8" />
@@ -62,12 +66,14 @@
       <module name="com-gang-common-cache" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-elastic" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-email" options="-parameters -Xlint:unchecked" />
+      <module name="com-gang-common-flowable" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-job" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-lib" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-msg-api" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-msg-kafka" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-msg-manage" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-msg-rabbitmq" options="-parameters -Xlint:unchecked" />
+      <module name="com-gang-common-msg-sms" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-multiple-source" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-mybatis" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-mybatis-plus" options="-parameters -Xlint:unchecked" />

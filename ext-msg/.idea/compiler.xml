@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="com-gang-common-msg-rabbitmq" />
+        <module name="com-gang-common-msg-email" />
+        <module name="com-gang-common-msg-kafka" />
+        <module name="com-gang-common-msg-manage" />
+        <module name="com-gang-common-msg-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com-gang-common-ext-msg" target="1.8" />
+      <module name="com-gang-common-msg-api" target="1.8" />
+      <module name="com-gang-common-msg-email" target="1.8" />
+      <module name="com-gang-common-msg-kafka" target="1.8" />
+      <module name="com-gang-common-msg-manage" target="1.8" />
+      <module name="com-gang-common-msg-rabbitmq" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="com-gang-common-msg-api" options="-parameters -Xlint:unchecked" />
+      <module name="com-gang-common-msg-email" options="-parameters -Xlint:unchecked" />
+      <module name="com-gang-common-msg-kafka" options="-parameters -Xlint:unchecked" />
+      <module name="com-gang-common-msg-manage" options="-parameters -Xlint:unchecked" />
+      <module name="com-gang-common-msg-rabbitmq" options="-parameters -Xlint:unchecked" />
+    </option>
+  </component>
+</project>

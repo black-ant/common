@@ -10,10 +10,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Date 2020/1/22 18:36
  * @Created by zengzg
  */
-@SpringBootApplication
+//@SpringBootApplication
 public class CacheApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(CacheApplication.class, args);
-    }
+    //    public static void main(String[] args) {
+    //        SpringApplication.run(CacheApplication.class, args);
+    //    }
 }

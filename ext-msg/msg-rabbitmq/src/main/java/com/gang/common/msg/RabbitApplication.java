@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Date 2020/2/5 21:18
  * @Created by zengzg
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.gang.common"})
 public class RabbitApplication {
 
     public static void main(String[] args) {

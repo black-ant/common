@@ -4,11 +4,12 @@ import com.gang.common.lib.to.ResponseModel;
 import com.gang.common.msg.email.to.EmailSendContent;
 import com.gang.common.msg.email.to.EmailSendSetting;
 import com.gang.common.msgapi.logic.BaseSendServiceManager;
-import com.gang.common.msgapi.logic.IMsgOperation;
-import com.gang.common.msgapi.to.MsgBack;
+import com.gang.common.msgapi.logic.IMsgProduce;
+import com.gang.common.msgapi.to.MsgBaseBody;
 import com.sun.mail.util.MailSSLSocketFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
 
 import javax.mail.Authenticator;
 import javax.mail.Message;
@@ -27,13 +28,16 @@ import java.util.Properties;
  * @Date 2020/2/22 21:11
  * @Created by zengzg
  */
-public class EmailSendService extends BaseSendServiceManager implements IMsgOperation {
+@Component
+public class EmailSendService extends BaseSendServiceManager<EmailSendSetting, EmailSendContent> {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
 
-    public ResponseModel<String> send(EmailSendSetting emailSendSetting, EmailSendContent sendContent) {
+    @Override
+    public ResponseModel sendMsg(EmailSendContent sendContent) {
 
+        EmailSendSetting emailSendSetting = getSetting();
         Properties properties = new Properties();
         createProperties(emailSendSetting, properties);
 
@@ -89,6 +93,7 @@ public class EmailSendService extends BaseSendServiceManager implements IMsgOper
             logger.error("E----> send error  :{} -- content :{}", e.getClass() + e.getMessage(), e);
         }
     }
+
 
     static class MyAuthenricator extends Authenticator {
         private String u = null;

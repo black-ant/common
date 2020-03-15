@@ -1,5 +1,7 @@
 package com.gang.common.msgapi;
 
+import com.gang.common.msgapi.type.MsgType;
+
 /**
  * @Classname MsgSettingTO
  * @Description TODO
@@ -7,4 +9,7 @@ package com.gang.common.msgapi;
  * @Created by zengzg
  */
 public interface IMsgSetting {
+
+    MsgType getMsgType();
+
 }

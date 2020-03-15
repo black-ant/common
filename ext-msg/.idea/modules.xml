@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/com-gang-common-ext-msg.iml" filepath="$PROJECT_DIR$/com-gang-common-ext-msg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msg-api/com-gang-common-msg-api.iml" filepath="$PROJECT_DIR$/msg-api/com-gang-common-msg-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msg-email/com-gang-common-msg-email.iml" filepath="$PROJECT_DIR$/msg-email/com-gang-common-msg-email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msg-kafka/com-gang-common-msg-kafka.iml" filepath="$PROJECT_DIR$/msg-kafka/com-gang-common-msg-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msg-manage/com-gang-common-msg-manage.iml" filepath="$PROJECT_DIR$/msg-manage/com-gang-common-msg-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msg-rabbitmq/com-gang-common-msg-rabbitmq.iml" filepath="$PROJECT_DIR$/msg-rabbitmq/com-gang-common-msg-rabbitmq.iml" />
+    </modules>
+  </component>
+</project>

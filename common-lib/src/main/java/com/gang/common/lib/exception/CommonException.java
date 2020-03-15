@@ -15,7 +15,17 @@ public class CommonException extends RuntimeException {
     private String exceptionInfo;
 
 
+    public CommonException() {
+    }
+
     public CommonException(String s) {
         super(s);
+        this.exceptionInfo = s;
+    }
+
+    public CommonException(String message, String code) {
+        super(message);
+        this.code = code;
+        this.exceptionInfo = message;
     }
 }

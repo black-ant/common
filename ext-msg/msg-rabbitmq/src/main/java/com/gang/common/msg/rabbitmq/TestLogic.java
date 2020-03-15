@@ -14,16 +14,16 @@ import org.springframework.stereotype.Component;
  * @Created by zengzg
  */
 @Component
-public class TestLogic implements ApplicationRunner {
+public class TestLogic {
 
-    private Logger logger = LoggerFactory.getLogger(this.getClass());
-
-    @Autowired
-    private SendLogic sendLogic;
-
-    @Override
-    public void run(ApplicationArguments args) throws Exception {
-        logger.info("------> this is in test <-------");
-        sendLogic.sendLogic();
-    }
+    //    private Logger logger = LoggerFactory.getLogger(this.getClass());
+    //
+    //    @Autowired
+    //    private SendLogic sendLogic;
+    //
+    //    @Override
+    //    public void run(ApplicationArguments args) throws Exception {
+    //        logger.info("------> this is in test <-------");
+    //        sendLogic.sendLogic();
+    //    }
 }

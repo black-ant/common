@@ -1,5 +1,7 @@
 package com.gang.common.msg.email.to;
 
+import com.gang.common.msgapi.IMsgSetting;
+import com.gang.common.msgapi.type.MsgType;
 import lombok.Data;
 
 /**
@@ -9,7 +11,7 @@ import lombok.Data;
  * @Created by zengzg
  */
 @Data
-public class EmailSendSetting {
+public class EmailSendSetting implements IMsgSetting {
 
     private String account;
 
@@ -26,5 +28,10 @@ public class EmailSendSetting {
     private boolean enable;
 
     private int time;
+
+    @Override
+    public MsgType getMsgType() {
+        return MsgType.EMAIL;
+    }
 }
 

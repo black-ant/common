@@ -12,13 +12,12 @@ import org.springframework.stereotype.Component;
  * @Created by zengzg
  */
 @Component
-public class TestClass implements ApplicationRunner {
+public class TestClass {
 
     @Autowired
     private CacheInvoke cacheInvoke;
 
 
-    @Override
     public void run(ApplicationArguments args) throws Exception {
         cacheInvoke.get("test");
     }

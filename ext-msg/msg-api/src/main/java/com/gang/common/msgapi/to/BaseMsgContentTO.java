@@ -11,11 +11,14 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Data
-public class BaseMsgContentTO {
+public class BaseMsgContentTO implements IMsgContent {
 
     private String title;
 
     private String content;
 
+    // 批量发送逗号分隔
     private String receiverList;
+
+
 }

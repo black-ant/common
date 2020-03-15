@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="20aa2a75-9d07-4ec8-a2d5-f78f5941d957" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gang/common/schedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-cache/com-gang-common-cache.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../common-cache/com-gang-common-cache.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-cache/target/classes/META-INF/com-gang-common-cache.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-cache/target/com-gang-common-cache-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../common-cache/target/com-gang-common-cache-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-elastic/com-gang-common-elastic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../common-elastic/com-gang-common-elastic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-lib/com-gang-common-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../common-lib/com-gang-common-lib.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-lib/target/classes/META-INF/com-gang-common-lib.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-lib/target/com-gang-common-lib-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../common-lib/target/com-gang-common-lib-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-mybatis-plus/target/com-gang-common-mybatis-plus-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../common-mybatis-plus/target/com-gang-common-mybatis-plus-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-mybatis/target/com-gang-commn-mybatis-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../common-mybatis/target/com-gang-commn-mybatis-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-gang-common-schedule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-swagger/com-gang-common-swagger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../common-swagger/com-gang-common-swagger.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-swagger/target/classes/META-INF/com-gang-common-swagger.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-swagger/target/com-gang-common-swagger-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../common-swagger/target/com-gang-common-swagger-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ext-msg/msg-api/com-gang-common-msg-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ext-msg/msg-api/com-gang-common-msg-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ext-msg/msg-api/target/classes/com/gang/common/msgapi/to/MsgResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ext-msg/msg-email/om-gang-common-msg-email.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ext-msg/msg-email/om-gang-common-msg-email.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ext-msg/msg-email/target/classes/com/gang/common/msg/email.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ext-msg/msg-rabbitmq/com-gang-common-msg-rabbitmq.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ext-msg/msg-rabbitmq/com-gang-common-msg-rabbitmq.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ext-msg/msg-rabbitmq/target/classes/META-INF/com-gang-common-msg-rabbitmq.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ext-sync/dingtalk/com-gang-sdk-dingtalk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ext-sync/dingtalk/com-gang-sdk-dingtalk.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ext-sync/dingtalk/target/classes/META-INF/com-gang-sdk-dingtalk.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ext-sync/dingtalk/target/com-gang-sdk-dingtalk-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ext-sync/dingtalk/target/com-gang-sdk-dingtalk-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ext-sync/sdk-api/com-gang-sdk-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ext-sync/sdk-api/com-gang-sdk-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ext-sync/sdk-api/target/classes/META-INF/com-gang-sdk-api.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ext-sync/sdk-api/target/com-gang-sdk-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ext-sync/sdk-api/target/com-gang-sdk-api-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ext-sync/wechat/com-gang-ext-wechat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ext-sync/wechat/com-gang-ext-wechat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ext-sync/wechat/target/com-gang-ext-wechat-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ext-sync/wechat/target/com-gang-ext-wechat-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ext-sync/workwechat/com-gang-ext-sdk-workwechat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ext-sync/workwechat/com-gang-ext-sdk-workwechat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ext-sync/workwechat/target/com-gang-ext-sdk-workwechat-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ext-sync/workwechat/target/com-gang-ext-sdk-workwechat-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multiple-source/target/com-gang-common-multiple-source-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../multiple-source/target/com-gang-common-multiple-source-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parent-sdk/com-gang-common-parent-sdk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../parent-sdk/com-gang-common-parent-sdk.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parent-sdk/target/com-gang-common-parent-sdk-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../parent-sdk/target/com-gang-common-parent-sdk-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gang/common/schedule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/com/gang/common/schedule.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../plugins/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\java\plugins\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="975" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="com-gang-common-schedule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-schedule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-gang-common-schedule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-gang-common-schedule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-gang-common-schedule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-gang-common-schedule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-gang-common-schedule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-gang-common-schedule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-gang-common-schedule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin.scripting" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20aa2a75-9d07-4ec8-a2d5-f78f5941d957" name="Default Changelist" comment="" />
+      <created>1582717951680</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582717951680</updated>
+      <workItem from="1582717971045" duration="470000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="470000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="JRebel" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="CheckStyle" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gang/common/schedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>com-gang-common-schedule</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.6275022" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Java8_152</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
