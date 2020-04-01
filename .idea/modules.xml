@@ -27,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/ext-sync/wechat/com-gang-ext-wechat.iml" filepath="$PROJECT_DIR$/ext-sync/wechat/com-gang-ext-wechat.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-sync/sdk-api/com-gang-sdk-api.iml" filepath="$PROJECT_DIR$/ext-sync/sdk-api/com-gang-sdk-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-sync/dingtalk/com-gang-sdk-dingtalk.iml" filepath="$PROJECT_DIR$/ext-sync/dingtalk/com-gang-sdk-dingtalk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-gang-common-log/common-log.iml" filepath="$PROJECT_DIR$/com-gang-common-log/common-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-msg/ext-msg.iml" filepath="$PROJECT_DIR$/ext-msg/ext-msg.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-msg/msg-email/om-gang-common-msg-email.iml" filepath="$PROJECT_DIR$/ext-msg/msg-email/om-gang-common-msg-email.iml" />
     </modules>

@@ -7,9 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="om-gang-common-msg-email" />
-        <module name="com-gang-common-msg-api" />
         <module name="com-gang-common-parent-sdk" />
         <module name="com-gang-common-cache" />
+        <module name="com-gang-ext-sdk-parent" />
         <module name="com-gang-common-msg-kafka" />
         <module name="com-gang-sdk-dingtalk" />
         <module name="com-gang-common-schedule" />
@@ -22,11 +22,12 @@
         <module name="com-gang-common-elastic" />
         <module name="com-gang-sdk-api" />
         <module name="com-gang-common-msg-manage" />
-        <module name="com-gang-ext-sdk-workwechat" />
+        <module name="common-log" />
         <module name="com-gang-common-mybatis" />
         <module name="com-gang-common-swagger" />
         <module name="com-gang-common-redis" />
-        <module name="com-gang-ext-sdk-parent" />
+        <module name="com-gang-common-msg-api" />
+        <module name="com-gang-ext-sdk-workwechat" />
         <module name="com-gang-common-mybatis-plus" />
         <module name="com-gang-common-msg-sms" />
       </profile>
@@ -57,6 +58,7 @@
       <module name="com-gang-ext-wechat" target="1.8" />
       <module name="com-gang-sdk-api" target="1.8" />
       <module name="com-gang-sdk-dingtalk" target="1.8" />
+      <module name="common-log" target="1.8" />
       <module name="ext-msg" target="1.8" />
       <module name="om-gang-common-msg-email" target="1.8" />
     </bytecodeTargetLevel>
@@ -86,6 +88,7 @@
       <module name="com-gang-ext-wechat" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-sdk-api" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-sdk-dingtalk" options="-parameters -Xlint:unchecked" />
+      <module name="common-log" options="-parameters -Xlint:unchecked" />
       <module name="ext-msg" options="-parameters -Xlint:unchecked" />
       <module name="om-gang-common-msg-email" options="-parameters -Xlint:unchecked" />
     </option>

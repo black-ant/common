@@ -29,7 +29,8 @@
         <module>common-schedule</module>
         <module>common-elastic</module>
         <module>common-job</module>
-        <module>flowable</module>
+        <module>common-flowable</module>
+        <module>com-gang-common-log</module>
     </modules>
     <properties>
 

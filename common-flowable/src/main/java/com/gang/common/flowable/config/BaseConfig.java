@@ -7,4 +7,5 @@ package com.gang.common.flowable.config;
  * @Created by zengzg
  */
 public class BaseConfig {
+
 }

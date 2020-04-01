@@ -13,6 +13,7 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
+import java.lang.reflect.ParameterizedType;
 import java.net.JarURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
@@ -74,6 +75,30 @@ public class ReflectionUtils {
             LOG.error("E----> not found send class :{} --- content :{} ", e.getClass(), e);
         }
         return null;
+    }
+
+    /**
+     * 根据泛型反射对象
+     *
+     * @param clazz
+     * @param num
+     * @param <T>
+     * @return
+     */
+    public <T> T reloadByParadigm(Class<T> clazz, Integer num) {
+        Class classLoader = getClassRealType(clazz, num);
+        return springClassLoad(classLoader.getName());
+    }
+
+    /**
+     * 获取泛型得类型
+     *
+     * @return
+     */
+    public <T> Class getClassRealType(Class<T> clazz, Integer num) {
+        ParameterizedType pt = (ParameterizedType) clazz.getGenericSuperclass();
+        clazz = (Class<T>) pt.getActualTypeArguments()[num];
+        return clazz;
     }
 
     /**
