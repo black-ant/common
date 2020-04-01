@@ -63,7 +63,7 @@
         <projectlombok.version>1.18.10</projectlombok.version>
 
 
-        <jackson.version>2.9.9</jackson.version>
+        <jackson.version>2.10.3</jackson.version>
         <hikaricp.version>3.2.0</hikaricp.version>
         <bval.version>1.1.2</bval.version>
         <jasypt.version>1.9.2</jasypt.version>
