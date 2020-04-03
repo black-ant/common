@@ -17,7 +17,6 @@
             <artifactId>com-gang-common-lib</artifactId>
             <version>1.0.0</version>
         </dependency>
-
         <dependency>
             <groupId>org.elasticsearch.plugin</groupId>
             <artifactId>transport-netty4-client</artifactId>

@@ -2,26 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="997c2b5d-a200-40ee-9d95-6c90097fb559" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com-gang-common-log/common-log.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com-gang-common-log/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-log/src/main/java/com/gang/common/log/logic/LogMainLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-log/target/com-gang-common-log-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-gang-common-log/common-log.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-log/com-gang-common-log.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-gang-common-log/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-log/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-gang-common-log/target/com-gang-common-log-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com-gang-common-log/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common-log/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-cache/target/com-gang-common-cache-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-cache/target/com-gang-common-cache-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-elastic/com-gang-common-elastic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-elastic/com-gang-common-elastic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-elastic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-elastic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-elastic/src/main/java/com/gang/common/elastic/config/ElasticConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-elastic/src/main/java/com/gang/common/elastic/config/ElasticConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-elastic/src/main/java/com/gang/common/elastic/utils/ElasticsearchUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-elastic/src/main/java/com/gang/common/elastic/utils/ElasticsearchUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-elastic/target/classes/com/gang/common/elastic/config/ElasticConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-elastic/target/classes/com/gang/common/elastic/config/ElasticConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-elastic/target/classes/com/gang/common/elastic/utils/ElasticsearchUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-elastic/target/classes/com/gang/common/elastic/utils/ElasticsearchUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-elastic/target/com-gang-common-elastic-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-elastic/target/com-gang-common-elastic-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-flowable/com-gang-common-flowable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-flowable/com-gang-common-flowable.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/config/BaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/config/BaseConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-flowable/target/classes/com/gang/common/flowable/FlowableLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-flowable/target/classes/com/gang/common/flowable/FlowableLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-flowable/target/com-gang-common-flowable-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-flowable/target/com-gang-common-flowable-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-job/target/com-gang-common-job-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-job/target/com-gang-common-job-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-lib/com-gang-common-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/com-gang-common-lib.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/utils/ReflectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/utils/ReflectionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-lib/target/classes/com/gang/common/lib/utils/ReflectionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/target/classes/com/gang/common/lib/utils/ReflectionUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-lib/target/com-gang-common-lib-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/target/com-gang-common-lib-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-mybatis-plus/target/com-gang-common-mybatis-plus-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-mybatis-plus/target/com-gang-common-mybatis-plus-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-mybatis/target/com-gang-commn-mybatis-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-mybatis/target/com-gang-commn-mybatis-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-schedule/target/com-gang-common-schedule-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-schedule/target/com-gang-common-schedule-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-swagger/com-gang-common-swagger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-swagger/com-gang-common-swagger.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-swagger/target/com-gang-common-swagger-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-swagger/target/com-gang-common-swagger-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext-msg/msg-api/target/com-gang-common-msg-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext-msg/msg-api/target/com-gang-common-msg-api-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext-msg/msg-email/target/com-gang-common-msg-email-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext-msg/msg-email/target/com-gang-common-msg-email-1.0.0.jar" afterDir="false" />
@@ -29,18 +30,12 @@
       <change beforePath="$PROJECT_DIR$/ext-msg/msg-manage/target/com-gang-common-msg-manage-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext-msg/msg-manage/target/com-gang-common-msg-manage-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext-msg/msg-rabbitmq/target/com-gang-common-msg-rabbitmq-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext-msg/msg-rabbitmq/target/com-gang-common-msg-rabbitmq-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext-msg/msg-sms/target/com-gang-common-msg-sms-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext-msg/msg-sms/target/com-gang-common-msg-sms-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-sync/dingtalk/com-gang-sdk-dingtalk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext-sync/dingtalk/com-gang-sdk-dingtalk.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext-sync/dingtalk/target/com-gang-sdk-dingtalk-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext-sync/dingtalk/target/com-gang-sdk-dingtalk-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-sync/sdk-api/com-gang-sdk-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext-sync/sdk-api/com-gang-sdk-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext-sync/sdk-api/target/com-gang-sdk-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext-sync/sdk-api/target/com-gang-sdk-api-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-sync/wechat/com-gang-ext-wechat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext-sync/wechat/com-gang-ext-wechat.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext-sync/wechat/target/com-gang-ext-wechat-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext-sync/wechat/target/com-gang-ext-wechat-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-sync/workwechat/com-gang-ext-sdk-workwechat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext-sync/workwechat/com-gang-ext-sdk-workwechat.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext-sync/workwechat/target/com-gang-ext-sdk-workwechat-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext-sync/workwechat/target/com-gang-ext-sdk-workwechat-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multiple-source/target/com-gang-common-multiple-source-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/multiple-source/target/com-gang-common-multiple-source-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent-sdk/com-gang-common-parent-sdk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-sdk/com-gang-common-parent-sdk.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parent-sdk/target/com-gang-common-parent-sdk-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/parent-sdk/target/com-gang-common-parent-sdk-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/ext/sdk-api/target/" />
@@ -85,6 +80,7 @@
     <ignored path="$PROJECT_DIR$/flowable/target/" />
     <ignored path="$PROJECT_DIR$/common-flowable/target/" />
     <ignored path="$PROJECT_DIR$/com-gang-common-log/target/" />
+    <ignored path="$PROJECT_DIR$/common-log/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,59 +99,63 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/config/BaseConfig.java">
+        <entry file="file://$PROJECT_DIR$/common-elastic/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-elastic/src/main/java/com/gang/common/elastic/utils/ElasticsearchUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-elastic/src/main/java/com/gang/common/elastic/config/ElasticConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-lib/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-log/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/utils/ReflectionUtils.java">
+        <entry file="file://$PROJECT_DIR$/common-log/src/main/java/com/gang/common/log/logic/LogMainLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="92" selection-start-line="92" selection-end-line="101" selection-end-column="5" />
+            <state relative-caret-position="220">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../../resource/repo/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/OnPropertyCondition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1628">
-              <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../../resource/repo/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/OnClassCondition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2420">
-              <caret line="138" column="32" selection-start-line="137" selection-start-column="8" selection-end-line="138" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com-gang-common-log/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ext-msg/msg-api/src/main/java/com/gang/common/msgapi/to/BaseMsgContentTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state relative-caret-position="264">
               <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -185,7 +185,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ext-msg/msg-api/src/main/java/com/gang/common/msgapi/logic/MsgConnect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
+            <state relative-caret-position="704">
               <caret line="42" column="41" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -219,7 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/utils/CronUtils.java" />
         <option value="$PROJECT_DIR$/common-schedule/src/main/java/com/gang/common/schedule/logic/common/ScheduleThread.java" />
         <option value="$PROJECT_DIR$/ext-msg/msg-api/src/main/java/com/gang/common/msgapi/logic/IMsgOperation.java" />
         <option value="$PROJECT_DIR$/ext-msg/msg-api/src/main/java/com/gang/common/msgapi/MsgSettingTO.java" />
@@ -270,6 +269,7 @@
         <option value="$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/config/BaseConfig.java" />
         <option value="$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/utils/ReflectionUtils.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/common-log/pom.xml" />
       </list>
     </option>
   </component>
@@ -316,37 +316,42 @@
             <path>
               <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="common-elastic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="common-log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="common-log" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="common-log" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="common-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="common-log" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="common-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -480,11 +485,16 @@
       <workItem from="1585665760287" duration="1124000" />
       <workItem from="1585705193332" duration="608000" />
       <workItem from="1585730861841" duration="684000" />
+      <workItem from="1585740336251" duration="2358000" />
+      <workItem from="1585751962195" duration="40000" />
+      <workItem from="1585753258468" duration="468000" />
+      <workItem from="1585792188352" duration="2171000" />
+      <workItem from="1585926778901" duration="731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141533000" />
+    <option name="totallyTimeSpent" value="147301000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -497,8 +507,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49671772" visible="true" weight="0.2627346" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49671772" visible="true" weight="0.24128686" />
       <window_info id="Structure" order="1" sideWeight="0.50328225" side_tool="true" weight="0.35254693" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.50328225" side_tool="true" weight="0.4644772" />
@@ -516,14 +527,14 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32991204" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.76407504" visible="true" weight="0.07771261" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7607239" visible="true" weight="0.3196481" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32991204" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.329429" />
-      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.23592493" side_tool="true" visible="true" weight="0.07771261" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.23927614" side_tool="true" visible="true" weight="0.3196481" />
       <window_info anchor="bottom" id="Problems" order="16" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" sideWeight="0.49932975" weight="0.4750733" />
       <window_info anchor="bottom" id="Messages" order="18" sideWeight="0.49932975" weight="0.32991204" />
@@ -543,61 +554,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../../resource/repo/org/springframework/amqp/spring-rabbit/2.1.7.RELEASE/spring-rabbit-2.1.7.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="536" column="16" selection-start-line="536" selection-start-column="16" selection-end-line="536" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext-msg/msg-rabbitmq/src/main/java/com/gang/common/msg/rabbitmq/SendLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext-msg/msg-rabbitmq/src/main/java/com/gang/common/msg/rabbitmq/TestLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext-msg/msg-rabbitmq/src/main/java/com/gang/common/msg/rabbitmq/AcceptLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-swagger/src/main/java/com/gang/common/swagger/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext-msg/msg-rabbitmq/src/main/java/com/gang/common/msg/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext-msg/msg-api/src/main/java/com/gang/common/msgapi/annotation/MsgConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ext-msg/msg-rabbitmq/src/main/java/com/gang/common/msg/rabbitmq/logic/RabbitConsumerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -899,9 +855,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/utils/ReflectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="92" selection-start-line="92" selection-end-line="101" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-elastic/src/main/java/com/gang/common/elastic/repository/AbstractRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-elastic/src/main/java/com/gang/common/elastic/utils/ElasticsearchUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-elastic/src/main/java/com/gang/common/elastic/config/ElasticConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ext-msg/msg-api/src/main/java/com/gang/common/msgapi/to/BaseMsgContentTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="264">
           <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -925,7 +909,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ext-msg/msg-api/src/main/java/com/gang/common/msgapi/logic/MsgConnect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
+        <state relative-caret-position="704">
           <caret line="42" column="41" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -933,13 +917,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com-gang-common-log/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/utils/ReflectionUtils.java">
+    <entry file="file://$PROJECT_DIR$/common-lib/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="92" selection-start-line="92" selection-end-line="101" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-elastic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-log/src/main/java/com/gang/common/log/logic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-log/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-log/src/main/java/com/gang/common/log/logic/LogMainLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

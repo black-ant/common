@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/common-flowable/com-gang-common-flowable.iml" filepath="$PROJECT_DIR$/common-flowable/com-gang-common-flowable.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-job/com-gang-common-job.iml" filepath="$PROJECT_DIR$/common-job/com-gang-common-job.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-lib/com-gang-common-lib.iml" filepath="$PROJECT_DIR$/common-lib/com-gang-common-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-log/com-gang-common-log.iml" filepath="$PROJECT_DIR$/common-log/com-gang-common-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-msg/msg-api/com-gang-common-msg-api.iml" filepath="$PROJECT_DIR$/ext-msg/msg-api/com-gang-common-msg-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-msg/msg-kafka/com-gang-common-msg-kafka.iml" filepath="$PROJECT_DIR$/ext-msg/msg-kafka/com-gang-common-msg-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-msg/msg-manage/com-gang-common-msg-manage.iml" filepath="$PROJECT_DIR$/ext-msg/msg-manage/com-gang-common-msg-manage.iml" />
@@ -27,7 +28,6 @@
       <module fileurl="file://$PROJECT_DIR$/ext-sync/wechat/com-gang-ext-wechat.iml" filepath="$PROJECT_DIR$/ext-sync/wechat/com-gang-ext-wechat.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-sync/sdk-api/com-gang-sdk-api.iml" filepath="$PROJECT_DIR$/ext-sync/sdk-api/com-gang-sdk-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-sync/dingtalk/com-gang-sdk-dingtalk.iml" filepath="$PROJECT_DIR$/ext-sync/dingtalk/com-gang-sdk-dingtalk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/com-gang-common-log/common-log.iml" filepath="$PROJECT_DIR$/com-gang-common-log/common-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-msg/ext-msg.iml" filepath="$PROJECT_DIR$/ext-msg/ext-msg.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-msg/msg-email/om-gang-common-msg-email.iml" filepath="$PROJECT_DIR$/ext-msg/msg-email/om-gang-common-msg-email.iml" />
     </modules>

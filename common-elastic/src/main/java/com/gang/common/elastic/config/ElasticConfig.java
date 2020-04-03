@@ -1,5 +1,6 @@
 package com.gang.common.elastic.config;
 
+import lombok.Data;
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.TransportAddress;
@@ -19,30 +20,34 @@ import java.net.InetAddress;
  * @Created by zengzg
  */
 @Configuration
+@Data
 public class ElasticConfig {
 
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ElasticConfig.class);
 
-    @Value("${elasticsearch.ip}")
-    private String hostName;
+    /**
+     * host
+     */
+    @Value("${real.elasticsearch.ip:'127.0.0.1'}")
+    private String host;
 
     /**
      * 端口
      */
-    @Value("${elasticsearch.port}")
+    @Value("${real.elasticsearch.port:'9200'}")
     private String port;
 
     /**
      * 集群名称
      */
-    @Value("${elasticsearch.cluster-name}")
+    @Value("${real.elasticsearch.cluster-name:'ant'}")
     private String clusterName;
 
     /**
      * 连接池
      */
-    @Value("${elasticsearch.pool}")
+    @Value("${elasticsearch.pool:'5'}")
     private String poolSize;
 
     /**
@@ -63,12 +68,13 @@ public class ElasticConfig {
                     .build();
             //配置信息Settings自定义
             transportClient = new PreBuiltTransportClient(esSetting);
-            TransportAddress transportAddress = new TransportAddress(InetAddress.getByName(hostName),
+            TransportAddress transportAddress = new TransportAddress(InetAddress.getByName(host),
                     Integer.valueOf(port));
             transportClient.addTransportAddresses(transportAddress);
         } catch (Exception e) {
             LOGGER.error("elasticsearch TransportClient create error!!", e);
         }
+
         return transportClient;
     }
 
