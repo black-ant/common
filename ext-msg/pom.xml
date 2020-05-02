@@ -5,7 +5,7 @@
     <parent>
         <artifactId>com-gang-common</artifactId>
         <groupId>com.gang</groupId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -16,7 +16,6 @@
         <module>msg-kafka</module>
         <module>msg-rabbitmq</module>
         <module>msg-manage</module>
-        <module>msg-api</module>
         <module>msg-email</module>
         <module>msg-sms</module>
     </modules>

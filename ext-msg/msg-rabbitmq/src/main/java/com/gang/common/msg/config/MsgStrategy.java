@@ -1,6 +1,6 @@
 package com.gang.common.msg.config;
 
-import com.gang.common.msgapi.to.MsgQueueInfo;
+import com.gang.common.msg.to.MsgQueueInfo;
 import org.springframework.stereotype.Component;
 
 /**

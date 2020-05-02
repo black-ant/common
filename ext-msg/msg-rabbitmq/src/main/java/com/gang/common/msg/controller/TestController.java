@@ -1,13 +1,9 @@
 package com.gang.common.msg.controller;
 
-import com.gang.common.lib.to.ResponseModel;
-import com.gang.common.msgapi.to.MsgOverTO;
-import com.gang.common.msgapi.to.MsgQueueInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -46,7 +42,7 @@ public class TestController {
     //        return msgQueueInfo;
     //    }
     //
-    //    public ResponseModel<MsgOverTO> sendMsg(com.gang.common.msgapi.to.MsgQueueInfo msgQueueInfo, MsgBody
+    //    public ResponseModel<MsgOverTO> sendMsg(MsgQueueInfo msgQueueInfo, MsgBody
     //    msgBody) {
     //        this.rabbitTemplate.convertAndSend(msgQueueInfo.getQueueId(), msgBody);
     //        return ResponseModel.commonResponse(new MsgOverTO(null, "send over"));

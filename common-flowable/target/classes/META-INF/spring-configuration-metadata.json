@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "com.gang.common.flowable.config.ProcessEngineConfig",
+      "sourceType": "com.gang.common.flowable.config.ProcessEngineConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.gang.common.flowable.config.ProcessEngineConfig"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.gang.common.flowable.config.ProcessEngineConfig"
+    },
+    {
+      "name": "spring.datasource.public-key",
+      "type": "java.lang.String",
+      "sourceType": "com.gang.common.flowable.config.ProcessEngineConfig"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.gang.common.flowable.config.ProcessEngineConfig"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.gang.common.flowable.config.ProcessEngineConfig"
+    }
+  ],
+  "hints": []
+}

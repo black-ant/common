@@ -6,10 +6,11 @@ import com.aliyuncs.CommonResponse;
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.IAcsClient;
 import com.aliyuncs.profile.DefaultProfile;
+import com.gang.common.entity.AliyunSetting;
+import com.gang.common.entity.SmsMsgContent;
 import com.gang.common.lib.to.ResponseModel;
-import com.gang.common.msgapi.logic.BaseSendServiceManager;
-import com.gang.common.msgapi.logic.IMsgProduce;
-import com.gang.common.msgapi.to.MsgBaseBody;
+import com.gang.common.msg.logic.BaseSendServiceManager;
+import com.gang.common.msg.to.MsgRequestTO;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,12 +25,14 @@ import java.util.Map;
  * @Created by zengzg
  */
 @Component
-public class AliyunSmsLogic extends BaseSendServiceManager<AliyunSetting, AliyunContent> {
+public class AliyunSmsLogic extends BaseSendServiceManager<AliyunSetting, SmsMsgContent> {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Override
-    public ResponseModel<String> sendMsg(AliyunContent msgBody) {
+    public ResponseModel sendMsg(MsgRequestTO<SmsMsgContent, AliyunSetting> requestTO) {
+
+        SmsMsgContent msgBody = requestTO.getContentTO();
 
         AliyunSetting setting = getSetting();
         DefaultProfile profile = DefaultProfile.getProfile(setting.getRegionId(), setting.getAccessToken(),
@@ -65,4 +68,6 @@ public class AliyunSmsLogic extends BaseSendServiceManager<AliyunSetting, Aliyun
 
         return ResponseModel.commonResponse("Send Error");
     }
+
+
 }

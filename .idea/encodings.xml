@@ -2,15 +2,18 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-msg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-sync" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-cache" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-elastic" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/common-email" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-flowable" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-job" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-lib" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-msg" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-mybatis-plus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-quzart" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-schedule" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-swagger" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ext-msg" charset="UTF-8" />
@@ -21,12 +24,12 @@
     <file url="file://$PROJECT_DIR$/ext-msg/msg-rabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ext-msg/msg-sms" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ext-sync" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ext-sync/dingtalk" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ext-sync/sdk-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ext-sync/sdk-parent" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ext-sync/wechat" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ext-sync/workwechat" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ext-sync/sync-dingtalk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ext-sync/sync-wechat" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ext-sync/sync-workwechat" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/multiple-source" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent-sdk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sdk-msg" charset="UTF-8" />
   </component>
 </project>

@@ -1,7 +1,6 @@
 package com.gang.common.msg.rabbitmq.logic;
 
-import com.gang.common.msgapi.annotation.MsgConsumer;
-import com.gang.common.msgapi.logic.IMsgConsumer;
+import com.gang.common.msg.logic.IMsgConsumer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.Queue;

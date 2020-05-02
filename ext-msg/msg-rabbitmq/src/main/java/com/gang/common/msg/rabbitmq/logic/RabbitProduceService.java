@@ -2,8 +2,9 @@ package com.gang.common.msg.rabbitmq.logic;
 
 import com.gang.common.lib.to.ResponseModel;
 import com.gang.common.msg.config.RabbitConfig;
-import com.gang.common.msgapi.logic.IMsgProduce;
-import com.gang.common.msgapi.to.MsgBaseBody;
+import com.gang.common.msg.logic.IMsgProduce;
+import com.gang.common.msg.to.MsgBaseBody;
+import com.gang.common.msg.to.MsgRequestTO;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -28,8 +29,10 @@ public class RabbitProduceService implements IMsgProduce<RabbitConfig, MsgBaseBo
     }
 
     @Override
-    public ResponseModel sendMsg(MsgBaseBody msgBody) {
-        template.convertAndSend("myExchange", config.getRouting(), msgBody.getData());
+    public ResponseModel sendMsg(MsgRequestTO<MsgBaseBody, RabbitConfig> requestTO) {
+        template.convertAndSend("myExchange", config.getRouting(), requestTO.getContentTO().getData());
         return ResponseModel.commonResponse("success");
     }
+
+
 }

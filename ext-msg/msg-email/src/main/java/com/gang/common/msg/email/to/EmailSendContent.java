@@ -1,6 +1,7 @@
 package com.gang.common.msg.email.to;
 
-import com.gang.common.msgapi.to.BaseMsgContentTO;
+
+import com.gang.common.msg.to.BaseMsgContentTO;
 
 /**
  * @Classname EmailSendContent

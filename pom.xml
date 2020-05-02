@@ -13,30 +13,37 @@
     <groupId>com.gang</groupId>
     <artifactId>com-gang-common</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <modules>
-        <module>common-swagger</module>
 
         <module>parent-sdk</module>
-        <module>common-lib</module>
-        <module>common-mybatis</module>
-        <module>common-cache</module>
         <module>multiple-source</module>
         <module>common-mybatis-plus</module>
         <module>ext-msg</module>
         <module>ext-sync</module>
+
+        <module>common-swagger</module>
+        <module>common-lib</module>
+        <module>common-mybatis</module>
+        <module>common-cache</module>
         <module>common-schedule</module>
         <module>common-elastic</module>
         <module>common-job</module>
         <module>common-flowable</module>
-        <module>com-gang-common-log</module>
+        <module>common-quzart</module>
+        <module>common-msg</module>
+        <module>api-msg</module>
+        <module>api-sync</module>
+        <module>sdk-msg</module>
     </modules>
     <properties>
 
         <sync.common.version>1.0.0</sync.common.version>
         <sync.core.version>1.0.0</sync.core.version>
         <sync.sdk.version>1.0.0</sync.sdk.version>
+        <common.version>1.0.1</common.version>
+
 
         <!-- main -->
         <java.version>1.8</java.version>
@@ -383,7 +390,22 @@
                 <version>${swagger-ui.version}</version>
             </dependency>
 
-
+            <!-- Ant Common Jar -->
+            <dependency>
+                <groupId>com.gang</groupId>
+                <artifactId>com-gang-common-api-msg</artifactId>
+                <version>${common.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.gang</groupId>
+                <artifactId>com-gang-common-api-sync</artifactId>
+                <version>${common.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.gang</groupId>
+                <artifactId>com-gang-common-lib</artifactId>
+                <version>${common.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

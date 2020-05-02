@@ -3,8 +3,8 @@
 //import com.gang.common.lib.to.ResponseModel;
 //import com.gang.common.msg.RabbitApplication;
 //import com.gang.common.msgapi.to.MsgBody;
-//import com.gang.common.msgapi.to.MsgOverTO;
-//import com.gang.common.msgapi.to.MsgQueueInfo;
+//import MsgOverTO;
+//import MsgQueueInfo;
 //import org.junit.Test;
 //import org.junit.runner.RunWith;
 //import org.slf4j.Logger;

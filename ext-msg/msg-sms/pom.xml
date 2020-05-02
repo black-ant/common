@@ -5,7 +5,7 @@
     <parent>
         <artifactId>com-gang-common-ext-msg</artifactId>
         <groupId>com.gang</groupId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -14,14 +14,20 @@
     <dependencies>
         <dependency>
             <groupId>com.gang</groupId>
-            <artifactId>com-gang-common-msg-api</artifactId>
-            <version>1.0.0</version>
+            <artifactId>com-gang-common-api-msg</artifactId>
+            <version>1.0.1</version>
         </dependency>
 
         <dependency>
             <groupId>com.aliyun</groupId>
             <artifactId>aliyun-java-sdk-core</artifactId>
             <version>4.0.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.cloopen</groupId>
+            <artifactId>java-sms-sdk</artifactId>
+            <version>1.0.1</version>
         </dependency>
 
     </dependencies>

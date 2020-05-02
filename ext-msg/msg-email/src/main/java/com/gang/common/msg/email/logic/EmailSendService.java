@@ -3,9 +3,8 @@ package com.gang.common.msg.email.logic;
 import com.gang.common.lib.to.ResponseModel;
 import com.gang.common.msg.email.to.EmailSendContent;
 import com.gang.common.msg.email.to.EmailSendSetting;
-import com.gang.common.msgapi.logic.BaseSendServiceManager;
-import com.gang.common.msgapi.logic.IMsgProduce;
-import com.gang.common.msgapi.to.MsgBaseBody;
+import com.gang.common.msg.logic.BaseSendServiceManager;
+import com.gang.common.msg.to.MsgRequestTO;
 import com.sun.mail.util.MailSSLSocketFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -35,11 +34,12 @@ public class EmailSendService extends BaseSendServiceManager<EmailSendSetting, E
 
 
     @Override
-    public ResponseModel sendMsg(EmailSendContent sendContent) {
-
+    public ResponseModel sendMsg(MsgRequestTO<EmailSendContent, EmailSendSetting> requestTO) {
         EmailSendSetting emailSendSetting = getSetting();
         Properties properties = new Properties();
         createProperties(emailSendSetting, properties);
+
+        EmailSendContent sendContent = requestTO.getContentTO();
 
         sendHandle(sendContent, properties, emailSendSetting);
         return ResponseModel.commonResponse("邮箱 : " + sendContent.getReceiverList() + " : " + sendContent.getTitle() + " : " + "发送成功");

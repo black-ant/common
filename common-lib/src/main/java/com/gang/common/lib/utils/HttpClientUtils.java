@@ -1,17 +1,31 @@
 package com.gang.common.lib.utils;
 
+import com.alibaba.fastjson.JSONObject;
+import com.gang.common.lib.exception.CommonException;
+import com.gang.common.lib.type.DefaultProperties;
 import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
 import org.apache.http.StatusLine;
+import org.apache.http.client.HttpClient;
 import org.apache.http.client.config.RequestConfig;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpDelete;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPatch;
 import org.apache.http.client.methods.HttpPost;
+import org.apache.http.client.methods.HttpPut;
+import org.apache.http.client.methods.HttpRequestBase;
+import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
 import org.apache.http.conn.ssl.SSLContextBuilder;
 import org.apache.http.conn.ssl.TrustStrategy;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
+import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,9 +33,14 @@ import org.slf4j.LoggerFactory;
 import javax.net.ssl.SSLContext;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URI;
 import java.nio.charset.Charset;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @Classname HttpClientUtils
@@ -41,13 +60,123 @@ public final class HttpClientUtils {
     // 传输超时时间
     private static int CONNECT_TIMEOUT = 300000;
 
+    private static String HTTP_GET = "GET";
+    private static String HTTP_POST = "POST";
 
+    private static SSLConnectionSocketFactory sslsf = null;
+    private static PoolingHttpClientConnectionManager cm = null;
+
+    /**
+     * @param syncPath
+     * @param type
+     * @param headerMap
+     * @param paramMap
+     * @param body
+     * @return
+     */
+    public static String doHttpHandle(String syncPath, String type, Map<String, String> headerMap,
+                                      Map<String, String> paramMap, JSONObject body) {
+
+        HttpClient httpclient =
+                HttpClients.custom().setSSLSocketFactory(sslsf).setConnectionManager(cm)
+                        .setConnectionManagerShared(true).build();
+
+        try {
+            URIBuilder builder = new URIBuilder(syncPath);
+
+            if (paramMap != null) {
+                paramMap.keySet().forEach(item -> {
+                    // 注意 : 空字符串有意义
+                    if (null != paramMap.get(item)) {
+                        builder.setParameter(item, paramMap.get(item));
+                    }
+                });
+            }
+
+            URI uri = builder.build();
+            LOG.info("------> Azure real list path :{} <-------", builder.toString());
+            HttpRequestBase request = null;
+
+            switch (type) {
+                case DefaultProperties.HTTP_GET:
+                    request = new HttpGet(uri);
+                    break;
+                case DefaultProperties.HTTP_PUT:
+                    request = new HttpPut(uri);
+                    break;
+                case DefaultProperties.HTTP_PATCH:
+                    request = new HttpPatch(uri);
+                    break;
+                case DefaultProperties.HTTP_POST:
+                    request = new HttpPost(uri);
+                    break;
+                case DefaultProperties.HTTP_DELETE:
+                    request = new HttpDelete(uri);
+                    break;
+                default:
+                    throw new CommonException("No Http Request Type");
+            }
+
+            // Build Header Start --------------
+            if (headerMap != null) {
+                for (String key : headerMap.keySet()) {
+                    request.addHeader(key, headerMap.get(key));
+                }
+            }
+
+            if (body != null) {
+                HttpEntity entity = null;
+                if ("application/x-www-form-urlencoded".equals(headerMap.get("Content-Type"))) {
+                    List<NameValuePair> pairs = new ArrayList<NameValuePair>();
+                    body.keySet().forEach(item -> {
+                        pairs.add(new BasicNameValuePair(item, body.getString(item)));
+                    });
+                    entity = new UrlEncodedFormEntity(pairs, "UTF-8");
+                } else {
+                    entity = new StringEntity(body.toJSONString());
+                }
+                if (DefaultProperties.HTTP_POST.equals(type)) {
+                    ((HttpPost) request).setEntity(entity);
+                } else if (DefaultProperties.HTTP_PATCH.equals(type)) {
+                    ((HttpPatch) request).setEntity(entity);
+                }
+            }
+
+            HttpResponse response = httpclient.execute(request);
+            HttpEntity entity = response.getEntity();
+
+            String responseBody = null;
+            if (entity != null) {
+                responseBody = EntityUtils.toString(entity, "UTF-8");
+            }
+
+            // Error Edit
+            if (responseBody != null && responseBody.length() > 20
+                    && responseBody.substring(0, 20).contains("odata.error")) {
+                LOG.error("E----> Http Send Error :{}", responseBody);
+            }
+
+            return responseBody;
+        } catch (Exception e) {
+            e.printStackTrace();
+            LOG.error("E----> error :{} -- content :{}", e.getClass(), e.getMessage());
+        }
+        return null;
+    }
+
+    /**
+     * @param url
+     * @param body
+     * @return
+     */
     public static String sendHttpPost(String url, String body) {
+
         CloseableHttpClient httpClient = HttpClients.createDefault();
         HttpPost httpPost = new HttpPost(url);
         httpPost.setHeader("Content-Type", "application/json;charset=utf-8");
         httpPost.setEntity(new StringEntity(body, Charset.forName("UTF-8")));
         CloseableHttpResponse httpResponse = null;
+
         // 返回值内容
         String content = null;
         try {
@@ -212,5 +341,24 @@ public final class HttpClientUtils {
         SSLConnectionSocketFactory sslsf = new SSLConnectionSocketFactory(sslContext, new String[]{"TLSv1"}, null,
                 SSLConnectionSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER);
         return HttpClients.custom().setSSLSocketFactory(sslsf).build();
+    }
+
+    /**
+     * 辅助生成Header 请求头
+     *
+     * @param type
+     * @return
+     */
+    public static Map<String, String> helperHeader(String type) {
+        Map<String, String> headMap = new HashMap<>();
+
+        switch (type) {
+            case DefaultProperties.HTTP_CONTENT_JSON:
+                headMap.put(DefaultProperties.CONTENT_TYPE, DefaultProperties.HTTP_CONTENT_JSON);
+                break;
+            default:
+        }
+
+        return headMap;
     }
 }

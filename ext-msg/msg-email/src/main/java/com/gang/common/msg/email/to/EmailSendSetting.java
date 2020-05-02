@@ -1,7 +1,7 @@
 package com.gang.common.msg.email.to;
 
-import com.gang.common.msgapi.IMsgSetting;
-import com.gang.common.msgapi.type.MsgType;
+import com.gang.common.msg.IMsgSetting;
+import com.gang.common.msg.type.MsgType;
 import lombok.Data;
 
 /**

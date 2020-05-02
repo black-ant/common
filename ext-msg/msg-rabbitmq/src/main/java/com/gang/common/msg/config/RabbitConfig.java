@@ -1,7 +1,6 @@
 package com.gang.common.msg.config;
 
-import com.gang.common.msgapi.config.BaseMsgConfig;
-import com.gang.common.msgapi.to.BaseMsgConfigTO;
+import com.gang.common.msg.to.BaseMsgConfigTO;
 import org.springframework.stereotype.Component;
 
 /**
