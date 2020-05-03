@@ -29,7 +29,7 @@ public class RedisCheckLogic implements ICheckLogic {
         try {
             redisConnectionFactory.getConnection();
         } catch (Exception e) {
-            logger.error("E----> Redis Connection error :{} -- content :{}", e.getClass() + e.getMessage(), e);
+            logger.error("E----> Redis Connection error");
             return Boolean.FALSE;
         }
         return Boolean.TRUE;
