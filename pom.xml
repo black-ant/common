@@ -36,6 +36,7 @@
         <module>api-msg</module>
         <module>api-sync</module>
         <module>sdk-msg</module>
+        <module>com-gang-common-oidc</module>
     </modules>
     <properties>
 

@@ -3,20 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/com-gang-common.iml" filepath="$PROJECT_DIR$/com-gang-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/com-gang-common.iml" filepath="$PROJECT_DIR$/com-gang-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/api-msg/com-gang-common-api-msg.iml" filepath="$PROJECT_DIR$/api-msg/com-gang-common-api-msg.iml" />
       <module fileurl="file://$PROJECT_DIR$/api-sync/com-gang-common-api-sync.iml" filepath="$PROJECT_DIR$/api-sync/com-gang-common-api-sync.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-cache/com-gang-common-cache.iml" filepath="$PROJECT_DIR$/common-cache/com-gang-common-cache.iml" />
-      <module fileurl="file://$PROJECT_DIR$/common-cache/com-gang-common-cache.iml" filepath="$PROJECT_DIR$/common-cache/com-gang-common-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/cache/com-gang-common-cache.iml" filepath="$PROJECT_DIR$/cache/com-gang-common-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-elastic/com-gang-common-elastic.iml" filepath="$PROJECT_DIR$/common-elastic/com-gang-common-elastic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ext-msg/ext-msg.iml" filepath="$PROJECT_DIR$/ext-msg/ext-msg.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-sync/com-gang-common-ext-sync.iml" filepath="$PROJECT_DIR$/ext-sync/com-gang-common-ext-sync.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-flowable/com-gang-common-flowable.iml" filepath="$PROJECT_DIR$/common-flowable/com-gang-common-flowable.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-job/com-gang-common-job.iml" filepath="$PROJECT_DIR$/common-job/com-gang-common-job.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-lib/com-gang-common-lib.iml" filepath="$PROJECT_DIR$/common-lib/com-gang-common-lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-log/com-gang-common-log.iml" filepath="$PROJECT_DIR$/common-log/com-gang-common-log.iml" />
-      <module fileurl="file://$PROJECT_DIR$/common-msg/com-gang-common-msg.iml" filepath="$PROJECT_DIR$/common-msg/com-gang-common-msg.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-msg/com-gang-common-msg.iml" filepath="$PROJECT_DIR$/common-msg/com-gang-common-msg.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-msg/msg-kafka/com-gang-common-msg-kafka.iml" filepath="$PROJECT_DIR$/ext-msg/msg-kafka/com-gang-common-msg-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-msg/msg-manage/com-gang-common-msg-manage.iml" filepath="$PROJECT_DIR$/ext-msg/msg-manage/com-gang-common-msg-manage.iml" />
@@ -39,6 +35,7 @@
       <module fileurl="file://$PROJECT_DIR$/ext-sync/sdk-api/com-gang-sdk-api.iml" filepath="$PROJECT_DIR$/ext-sync/sdk-api/com-gang-sdk-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-sync/sync-dingtalk/com-gang-sdk-dingtalk.iml" filepath="$PROJECT_DIR$/ext-sync/sync-dingtalk/com-gang-sdk-dingtalk.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-sync/dingtalk/com-gang-sdk-dingtalk.iml" filepath="$PROJECT_DIR$/ext-sync/dingtalk/com-gang-sdk-dingtalk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ext-msg/ext-msg.iml" filepath="$PROJECT_DIR$/ext-msg/ext-msg.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-msg/msg-email/om-gang-common-msg-email.iml" filepath="$PROJECT_DIR$/ext-msg/msg-email/om-gang-common-msg-email.iml" />
     </modules>
   </component>

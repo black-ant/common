@@ -13,11 +13,11 @@
     <file url="file://$PROJECT_DIR$/common-msg" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-mybatis-plus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-oidc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-quzart" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-schedule" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-swagger" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ext-msg" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ext-msg/msg-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ext-msg/msg-email" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ext-msg/msg-kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ext-msg/msg-manage" charset="UTF-8" />

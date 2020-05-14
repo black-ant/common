@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="om-gang-common-msg-email" />
+        <module name="com-gang-common-mybatis-plus" />
         <module name="com-gang-common-parent-sdk" />
         <module name="com-gang-common-api-msg" />
         <module name="com-gang-common-cache" />
         <module name="com-gang-ext-sdk-parent" />
-        <module name="com-gang-common-msg-kafka" />
+        <module name="om-gang-common-msg-email" />
         <module name="com-gang-sdk-dingtalk" />
         <module name="com-gang-common-schedule" />
         <module name="com-gang-common-msg-rabbitmq" />
@@ -26,14 +26,14 @@
         <module name="com-gang-common-log" />
         <module name="com-gang-sdk-api" />
         <module name="com-gang-common-msg-manage" />
-        <module name="com-gang-ext-sdk-workwechat" />
-        <module name="com-gang-common-mybatis" />
         <module name="com-gang-common-sdk-msg" />
+        <module name="com-gang-common-mybatis" />
         <module name="com-gang-common-swagger" />
-        <module name="com-gang-common-redis" />
-        <module name="com-gang-common-mybatis-plus" />
-        <module name="com-gang-common-msg" />
         <module name="com-gang-common-msg-sms" />
+        <module name="com-gang-common-redis" />
+        <module name="com-gang-common-msg-kafka" />
+        <module name="com-gang-ext-sdk-workwechat" />
+        <module name="com-gang-common-msg" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -58,6 +58,7 @@
       <module name="com-gang-common-multiple-source" target="1.8" />
       <module name="com-gang-common-mybatis" target="1.8" />
       <module name="com-gang-common-mybatis-plus" target="1.8" />
+      <module name="com-gang-common-oidc" target="1.8" />
       <module name="com-gang-common-parent-sdk" target="1.8" />
       <module name="com-gang-common-quzart" target="1.8" />
       <module name="com-gang-common-redis" target="1.8" />
@@ -69,6 +70,7 @@
       <module name="com-gang-ext-wechat" target="1.8" />
       <module name="com-gang-sdk-api" target="1.8" />
       <module name="com-gang-sdk-dingtalk" target="1.8" />
+      <module name="ext-msg" target="1.8" />
       <module name="om-gang-common-msg-email" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -93,6 +95,7 @@
       <module name="com-gang-common-multiple-source" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-mybatis" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-mybatis-plus" options="-parameters -Xlint:unchecked" />
+      <module name="com-gang-common-oidc" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-parent-sdk" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-quzart" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-redis" options="-parameters -Xlint:unchecked" />
