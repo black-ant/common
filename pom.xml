@@ -30,13 +30,12 @@
         <module>common-schedule</module>
         <module>common-elastic</module>
         <module>common-job</module>
-        <module>common-flowable</module>
+        <!--        <module>common-flowable</module>-->
         <module>common-quzart</module>
         <module>common-msg</module>
         <module>api-msg</module>
         <module>api-sync</module>
         <module>sdk-msg</module>
-        <module>com-gang-common-oidc</module>
     </modules>
     <properties>
 

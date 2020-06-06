@@ -11,6 +11,7 @@ import java.util.Map;
  */
 public class ResponseModel<E> {
 
+    private final static String SUCCESS_CODE = "200";
     private String code;
 
     private E data;
@@ -20,8 +21,13 @@ public class ResponseModel<E> {
     private final Map<String, String> info = new HashMap<>();
 
     public static <T> ResponseModel<T> commonResponse(final T entity) {
-        return new ResponseModel.Builder<T>().data(entity).info(ResponseType.SUCCESS).dataType(entity == null ? "" :
-                entity.getClass().getName()).build();
+        return
+                new ResponseModel.Builder<T>()
+                        .data(entity)
+                        .info(ResponseType.SUCCESS)
+                        .code(SUCCESS_CODE)
+                        .dataType(entity == null ? "" : entity.getClass().getName())
+                        .build();
     }
 
     public static class Builder<E> {
@@ -70,7 +76,8 @@ public class ResponseModel<E> {
 
     public static enum ResponseType {
 
-        SUCCESS("1", "success"), FAILURE("-1", "failure");
+        SUCCESS("1", "success"),
+        FAILURE("-1", "failure");
 
         private String code;
         private String info;
