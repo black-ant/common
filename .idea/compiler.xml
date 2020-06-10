@@ -6,34 +6,35 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="com-gang-common-mybatis-plus" />
+        <module name="com-gang-common-msg-kafka" />
         <module name="com-gang-common-parent-sdk" />
-        <module name="com-gang-common-api-msg" />
+        <module name="com-gang-ext-sdk-workwechat" />
         <module name="com-gang-common-cache" />
-        <module name="com-gang-ext-sdk-parent" />
         <module name="om-gang-common-msg-email" />
         <module name="com-gang-sdk-dingtalk" />
+        <module name="com-gang-common-mybatis" />
         <module name="com-gang-common-schedule" />
         <module name="com-gang-common-msg-rabbitmq" />
         <module name="com-gang-common-flowable" />
-        <module name="com-gang-common-job" />
+        <module name="com-gang-common-api-msg" />
         <module name="com-gang-ext-wechat" />
         <module name="com-gang-common-lib" />
         <module name="com-gang-common-multiple-source" />
         <module name="com-gang-common-api-sync" />
         <module name="com-gang-common-elastic" />
-        <module name="com-gang-common-quzart" />
+        <module name="com-gang-common-encryption" />
         <module name="com-gang-common-log" />
-        <module name="com-gang-sdk-api" />
+        <module name="com-gang-common-job" />
         <module name="com-gang-common-msg-manage" />
         <module name="com-gang-common-sdk-msg" />
-        <module name="com-gang-common-mybatis" />
+        <module name="com-gang-ext-sdk-parent" />
+        <module name="com-gang-sdk-api" />
         <module name="com-gang-common-swagger" />
         <module name="com-gang-common-msg-sms" />
         <module name="com-gang-common-redis" />
-        <module name="com-gang-common-msg-kafka" />
-        <module name="com-gang-ext-sdk-workwechat" />
+        <module name="com-gang-common-mybatis-plus" />
         <module name="com-gang-common-msg" />
+        <module name="com-gang-common-quzart" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -43,6 +44,7 @@
       <module name="com-gang-common-cache" target="1.8" />
       <module name="com-gang-common-elastic" target="1.8" />
       <module name="com-gang-common-email" target="1.8" />
+      <module name="com-gang-common-encryption" target="1.8" />
       <module name="com-gang-common-ext-msg" target="1.8" />
       <module name="com-gang-common-ext-sync" target="1.8" />
       <module name="com-gang-common-flowable" target="1.8" />
@@ -81,6 +83,7 @@
       <module name="com-gang-common-cache" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-elastic" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-email" options="-parameters -Xlint:unchecked" />
+      <module name="com-gang-common-encryption" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-ext-msg" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-flowable" options="-parameters -Xlint:unchecked" />
       <module name="com-gang-common-job" options="-parameters -Xlint:unchecked" />

@@ -2,153 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="997c2b5d-a200-40ee-9d95-6c90097fb559" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_spring4all_swagger_spring_boot_starter_1_9_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_bean_validators_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_5_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_jsr223_2_5_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_app_engine_rest_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_cmmn_rest_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_content_api_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_dmn_rest_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_entitylink_service_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_entitylink_service_api_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_form_engine_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_form_rest_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_form_spring_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_idm_rest_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_idm_spring_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_job_service_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_ldap_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_rest_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_boot_starter_app_rest_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_boot_starter_cmmn_rest_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_boot_starter_dmn_rest_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_boot_starter_process_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_boot_starter_process_rest_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_boot_starter_rest_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_task_service_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_ui_admin_conf_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_ui_admin_logic_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_ui_admin_rest_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_ui_idm_conf_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_ui_idm_logic_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_ui_idm_rest_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_ui_task_conf_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_ui_task_logic_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_ui_task_rest_6_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ldap_spring_ldap_core_2_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_ldap_5_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/config/AppDispatcherServletConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/config/ApplicationConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/config/DatabaseConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/config/TaskUserCacheImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/config/WebMvcConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/controller/EditorGroupsResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/controller/EditorUsersResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/controller/FlowStencilSetResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-flowable/src/main/java/org/flowable/ui/admin/service/engine/CmmnTaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-flowable/src/main/java/org/flowable/ui/modeler/rest/app/AppDefinitionResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-encryption/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/service/PwdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/service/VCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/utils/CaUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/utils/PictureUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/utils/PwdUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_app_engine_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_app_engine_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_app_engine_api_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_app_engine_api_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_app_engine_spring_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_app_engine_spring_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_cmmn_api_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_cmmn_api_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_cmmn_engine_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_common_rest_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_cmmn_engine_configurator_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_cmmn_engine_configurator_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_cmmn_spring_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_cmmn_spring_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_cmmn_spring_configurator_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_cmmn_spring_configurator_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_content_api_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_cmmn_engine_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_content_engine_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_content_engine_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_content_engine_configurator_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_content_engine_configurator_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_content_spring_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_content_spring_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_content_spring_configurator_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_content_spring_configurator_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_dmn_api_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_dmn_api_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_dmn_engine_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_dmn_spring_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_dmn_engine_configurator_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_dmn_engine_configurator_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_dmn_spring_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_dmn_engine_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_dmn_spring_configurator_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_dmn_spring_configurator_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_engine_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_engine_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_engine_common_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_engine_common_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_engine_configurator_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_engine_configurator_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_form_engine_6_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_form_engine_configurator_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_form_engine_configurator_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_form_spring_6_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_form_spring_configurator_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_form_spring_configurator_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_identitylink_service_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_identitylink_service_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_identitylink_service_api_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_identitylink_service_api_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_idm_engine_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_idm_engine_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_idm_engine_configurator_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_idm_engine_configurator_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_idm_spring_6_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_idm_spring_configurator_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_idm_spring_configurator_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_job_service_6_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_job_service_api_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_job_service_api_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_job_spring_service_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_job_spring_service_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_boot_autoconfigure_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_boot_autoconfigure_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_boot_starter_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_boot_starter_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_boot_starter_app_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_boot_starter_app_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_boot_starter_cmmn_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_boot_starter_cmmn_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_boot_starter_dmn_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_boot_starter_dmn_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_boot_starter_process_6_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_common_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_common_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_configurator_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_configurator_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_security_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_spring_security_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_task_service_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_content_rest_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_task_service_api_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_task_service_api_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_variable_service_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_variable_service_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_variable_service_api_6_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flowable_flowable_variable_service_api_6_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-msg/target/com-gang-common-api-msg-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api-msg/target/com-gang-common-api-msg-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-sync/target/com-gang-common-api-sync-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api-sync/target/com-gang-common-api-sync-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-cache/target/com-gang-common-cache-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-cache/target/com-gang-common-cache-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-elastic/com-gang-common-elastic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-elastic/com-gang-common-elastic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-elastic/target/com-gang-common-elastic-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-elastic/target/com-gang-common-elastic-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-flowable/com-gang-common-flowable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-flowable/com-gang-common-flowable.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-flowable/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-flowable/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-flowable/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-flowable/target/com-gang-common-flowable-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-job/target/com-gang-common-job-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-job/target/com-gang-common-job-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-lib/com-gang-common-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/com-gang-common-lib.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/to/ResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/to/ResponseModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-lib/target/classes/com/gang/common/lib/to/ResponseModel$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/target/classes/com/gang/common/lib/to/ResponseModel$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-lib/target/classes/com/gang/common/lib/to/ResponseModel$ResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/target/classes/com/gang/common/lib/to/ResponseModel$ResponseType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-lib/target/classes/com/gang/common/lib/to/ResponseModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/target/classes/com/gang/common/lib/to/ResponseModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-lib/target/com-gang-common-lib-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/target/com-gang-common-lib-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-log/com-gang-common-log.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-log/com-gang-common-log.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-mybatis-plus/target/com-gang-common-mybatis-plus-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-mybatis-plus/target/com-gang-common-mybatis-plus-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-mybatis/com-gang-common-mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-mybatis/com-gang-common-mybatis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-mybatis/target/com-gang-commn-mybatis-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-mybatis/target/com-gang-commn-mybatis-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-schedule/target/com-gang-common-schedule-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-schedule/target/com-gang-common-schedule-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-swagger/com-gang-common-swagger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-swagger/com-gang-common-swagger.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-swagger/target/com-gang-common-swagger-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common-swagger/target/com-gang-common-swagger-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-msg/msg-email/target/com-gang-common-msg-email-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext-msg/msg-email/target/com-gang-common-msg-email-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-msg/msg-kafka/target/com-gang-common-msg-kafka-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext-msg/msg-kafka/target/com-gang-common-msg-kafka-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-msg/msg-manage/target/com-gang-common-msg-manage-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext-msg/msg-manage/target/com-gang-common-msg-manage-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-msg/msg-rabbitmq/target/com-gang-common-msg-rabbitmq-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext-msg/msg-rabbitmq/target/com-gang-common-msg-rabbitmq-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-msg/msg-sms/target/com-gang-common-msg-sms-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext-msg/msg-sms/target/com-gang-common-msg-sms-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-sync/sync-dingtalk/com-gang-sdk-dingtalk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext-sync/sync-dingtalk/com-gang-sdk-dingtalk.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-sync/sync-dingtalk/target/com-gang-sdk-dingtalk-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext-sync/sync-dingtalk/target/com-gang-sdk-dingtalk-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-sync/sync-wechat/com-gang-ext-wechat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext-sync/sync-wechat/com-gang-ext-wechat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-sync/sync-wechat/target/com-gang-ext-wechat-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext-sync/sync-wechat/target/com-gang-ext-wechat-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-sync/sync-workwechat/com-gang-ext-sdk-workwechat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ext-sync/sync-workwechat/com-gang-ext-sdk-workwechat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-sync/sync-workwechat/target/com-gang-ext-sdk-workwechat-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ext-sync/sync-workwechat/target/com-gang-ext-sdk-workwechat-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiple-source/target/com-gang-common-multiple-source-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/multiple-source/target/com-gang-common-multiple-source-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent-sdk/com-gang-common-parent-sdk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-sdk/com-gang-common-parent-sdk.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent-sdk/target/com-gang-common-parent-sdk-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/parent-sdk/target/com-gang-common-parent-sdk-1.0.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -204,6 +67,7 @@
     <ignored path="$PROJECT_DIR$/ext-sync/sync-wechat/target/" />
     <ignored path="$PROJECT_DIR$/sdk-msg/target/" />
     <ignored path="$PROJECT_DIR$/com-gang-common-oidc/target/" />
+    <ignored path="$PROJECT_DIR$/common-encryption/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,82 +86,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/config/AppDispatcherServletConfiguration.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/controller/FlowStencilSetResource.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/controller/EditorUsersResource.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/controller/EditorGroupsResource.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-flowable/src/main/java/org/flowable/ui/modeler/rest/app/AppDefinitionResource.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-flowable/src/main/java/org/flowable/ui/admin/service/engine/CmmnTaskService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-flowable/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2033">
-              <caret line="107" column="23" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
+            <state relative-caret-position="608">
+              <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/config/DataBaseConfig.java">
+        <entry file="file://$PROJECT_DIR$/common-swagger/src/main/java/com/gang/common/swagger/config/SwaggerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="228">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/to/ResponseModel.java">
+        <entry file="file://$PROJECT_DIR$/common-swagger/src/main/java/com/gang/common/swagger/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+            <state relative-caret-position="247">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-swagger/src/main/resources/application-swagger.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-encryption/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/utils/PwdUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/utils/PictureUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/utils/CaUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/service/VCodeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/service/PwdService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
-              <folding>
-                <element signature="e#33#54#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
@@ -332,11 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common-quzart/src/main/java/com/gang/common/exception/ScheduleException.java" />
-        <option value="$PROJECT_DIR$/common-quzart/src/main/java/com/gang/common/quzart/QuzartService.java" />
-        <option value="$PROJECT_DIR$/common-flowable/src/main/resources/application-flowable.yml" />
-        <option value="$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/config/DataBaseConfig.java" />
-        <option value="$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/config/ProcessEngineConfig.java" />
         <option value="$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/config/FlowableConfig.java" />
         <option value="$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/FlowableLogic.java" />
         <option value="$PROJECT_DIR$/ext-msg/msg-sms/src/main/java/com/gang/common/entity/MsgContent.java" />
@@ -383,6 +251,11 @@
         <option value="$PROJECT_DIR$/common-flowable/pom.xml" />
         <option value="$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/to/ResponseModel.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/utils/PicUtils.java" />
+        <option value="$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/utils/PictureUtils.java" />
+        <option value="$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/utils/CaUtils.java" />
+        <option value="$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/service/VCodeService.java" />
+        <option value="$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/service/PwdService.java" />
       </list>
     </option>
   </component>
@@ -422,19 +295,17 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -444,12 +315,58 @@
             </path>
             <path>
               <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="common-encryption" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="common-encryption" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="common-encryption" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="common-encryption" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="common-encryption" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="common-encryption" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-gang-common" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -606,11 +523,13 @@
       <workItem from="1590068178111" duration="1144000" />
       <workItem from="1590110258256" duration="36000" />
       <workItem from="1591456519486" duration="483000" />
+      <workItem from="1591522502919" duration="967000" />
+      <workItem from="1591799816584" duration="1564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192595000" />
+    <option name="totallyTimeSpent" value="195126000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -622,10 +541,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49671772" visible="true" weight="0.16689008" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49671772" visible="true" weight="0.41957104" />
       <window_info id="Structure" order="1" sideWeight="0.50328225" side_tool="true" weight="0.35254693" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.50328225" side_tool="true" weight="0.4644772" />
@@ -643,14 +562,14 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32991204" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.7486595" visible="true" weight="0.1920821" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.74731904" visible="true" weight="0.1920821" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32991204" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.329429" />
-      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.25134048" side_tool="true" visible="true" weight="0.1920821" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.25268096" side_tool="true" visible="true" weight="0.1920821" />
       <window_info anchor="bottom" id="Problems" order="16" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" sideWeight="0.49932975" weight="0.4750733" />
       <window_info anchor="bottom" id="Messages" order="18" sideWeight="0.49932975" weight="0.32991204" />
@@ -670,78 +589,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ext-msg/msg-rabbitmq/src/main/java/com/gang/common/msg/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext-msg/msg-rabbitmq/src/main/java/com/gang/common/msg/rabbitmq/logic/RabbitConsumerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext-msg/msg-rabbitmq/src/main/java/com/gang/common/msg/rabbitmq/logic/RabbitProduceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="32" column="91" selection-start-line="32" selection-start-column="91" selection-end-line="32" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-msg/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext-msg/msg-email/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext-msg/msg-email/src/main/java/com/gang/common/msg/email/to/EmailSendSetting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext-msg/msg-email/src/main/java/com/gang/common/msg/email/to/EmailSendContent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext-msg/msg-email/src/main/java/com/gang/common/msg/email/logic/EmailSendService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="32" column="69" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext-sync/sync-workwechat/src/main/java/com/gang/ext/sdk/workwechat/type/WorkWechatAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api-sync/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -956,6 +803,13 @@
     <entry file="file://$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/config/DatabaseConfiguration.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/config/AppDispatcherServletConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/controller/FlowStencilSetResource.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -990,30 +844,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-flowable/src/main/java/com/gang/common/flowable/config/AppDispatcherServletConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common-lib/src/main/java/com/gang/common/lib/to/ResponseModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
+        <state relative-caret-position="494">
           <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="608">
           <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
-          <folding>
-            <element signature="e#33#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-swagger/src/main/java/com/gang/common/swagger/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-swagger/src/main/java/com/gang/common/swagger/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-swagger/src/main/resources/application-swagger.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-encryption/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/utils/PictureUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/utils/PwdUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/utils/CaUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/service/VCodeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-encryption/src/main/java/com/gang/common/encryption/service/PwdService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

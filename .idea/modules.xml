@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/common-cache/com-gang-common-cache.iml" filepath="$PROJECT_DIR$/common-cache/com-gang-common-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/cache/com-gang-common-cache.iml" filepath="$PROJECT_DIR$/cache/com-gang-common-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-elastic/com-gang-common-elastic.iml" filepath="$PROJECT_DIR$/common-elastic/com-gang-common-elastic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-encryption/com-gang-common-encryption.iml" filepath="$PROJECT_DIR$/common-encryption/com-gang-common-encryption.iml" />
       <module fileurl="file://$PROJECT_DIR$/ext-sync/com-gang-common-ext-sync.iml" filepath="$PROJECT_DIR$/ext-sync/com-gang-common-ext-sync.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-flowable/com-gang-common-flowable.iml" filepath="$PROJECT_DIR$/common-flowable/com-gang-common-flowable.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-job/com-gang-common-job.iml" filepath="$PROJECT_DIR$/common-job/com-gang-common-job.iml" />
