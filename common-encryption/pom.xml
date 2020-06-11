@@ -11,5 +11,16 @@
 
     <artifactId>com-gang-common-encryption</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.gang</groupId>
+            <artifactId>com-gang-common-lib</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+    </dependencies>
 
 </project>
