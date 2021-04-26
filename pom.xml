@@ -60,7 +60,7 @@
         <spring.cloudstream.version>2.1.0.RC4</spring.cloudstream.version>
 
         <!-- common jar -->
-        <commons-io.version>2.6</commons-io.version>
+        <commons-io.version>2.7</commons-io.version>
         <commons-email.version>1.5</commons-email.version>
         <commons-jexl.version>3.1</commons-jexl.version>
         <commons-lang.version>3.8.1</commons-lang.version>
