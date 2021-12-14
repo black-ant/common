@@ -81,7 +81,7 @@
 
         <!-- log -->
         <slf4j.version>1.7.25</slf4j.version>
-        <log4j.version>2.11.1</log4j.version>
+        <log4j.version>2.16.0</log4j.version>
 
         <!-- rest -->
         <swagger-core.version>2.0.8</swagger-core.version>
